@@ -1842,6 +1842,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/49c35e14af0e1f7aae407455cb944de96328955870e5f1500f63723ad879a42e_Grey Button_Pressed.png",
           "name": "Grey Button_Pressed.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8BitOperatorPlus8Regular_Edited3 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8BitOperatorPlus8Regular_Edited3 (1).png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -9538,9 +9547,26 @@
           "name": "GreyButton",
           "persistentUuid": "ede3e84d-f58d-4966-ad4f-878bf32d2dae",
           "width": 458,
-          "x": 733,
-          "y": 796,
+          "x": 428,
+          "y": 798,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 106,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hauptmenü",
+          "persistentUuid": "13158d2d-69ad-4e4b-b04d-5baefb8b344d",
+          "width": 460,
+          "x": 1002,
+          "y": 796,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9549,13 +9575,14 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "Hintergrund",
-          "name": "NewText",
-          "persistentUuid": "057a35ee-d35f-47a4-94bc-f939e0f71933",
+          "keepRatio": true,
+          "layer": "",
+          "name": "Game_Over2",
+          "persistentUuid": "e5e45e6b-9ebc-49e5-b890-83d60c1d88f1",
           "width": 0,
-          "x": 585,
-          "y": 154,
-          "zOrder": 3,
+          "x": 502,
+          "y": 35,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9706,44 +9733,105 @@
           }
         },
         {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "NewText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
+          "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
+          "name": "Hauptmenü",
+          "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "GAME\nOVER",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 250,
-          "color": {
-            "b": 210,
-            "g": 210,
-            "r": 224
-          },
           "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "GAME\nOVER",
-            "font": "",
-            "textAlignment": "center",
-            "characterSize": 250,
-            "color": "224;210;210"
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 10,
+            "BottomPadding": 32,
+            "TopPadding": 16,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button_Hovered.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Idle": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button_Idle.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Hauptmenü",
+              "font": "",
+              "textAlignment": "center",
+              "characterSize": 60,
+              "color": {
+                "b": 79,
+                "g": 72,
+                "r": 72
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Hauptmenü",
+                "font": "",
+                "textAlignment": "center",
+                "characterSize": 60,
+                "color": "72;72;79"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button_Pressed.png",
+              "tiled": true,
+              "topMargin": 32,
+              "width": 256
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Game_Over2",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Game \nOver",
+            "opacity": 255,
+            "scale": 15,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "drive-download-20240411T143952Z-001\\8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3 (1).png",
+            "align": "left",
+            "wordWrap": true
           }
         }
       ],
@@ -9757,7 +9845,10 @@
             "objectName": "GreyButton"
           },
           {
-            "objectName": "NewText"
+            "objectName": "Hauptmenü"
+          },
+          {
+            "objectName": "Game_Over2"
           }
         ]
       },
@@ -9783,6 +9874,32 @@
               "parameters": [
                 "",
                 "\"Level 1\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Hauptmenü",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Hauptmenü\"",
                 ""
               ]
             }
