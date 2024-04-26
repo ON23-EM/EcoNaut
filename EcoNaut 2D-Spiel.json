@@ -1767,6 +1767,33 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/5c3135f6fa8587da82ddea950881fc8b35d422bb806d9331f8b47fdc715ee76a_Wood Bar Border.png",
           "name": "Wood Bar Border.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Loch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Loch.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ScLoch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ScLoch.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SchwarzesLoch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SchwarzesLoch.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1829,7 +1856,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2550455473354363,
+        "zoomFactor": 0.2467258695740661,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1927,13 +1954,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 353,
+          "height": 355,
           "layer": "",
           "name": "Tor",
           "persistentUuid": "177dd90a-9d13-499d-9bf3-b2f7e8221321",
-          "width": 705,
-          "x": 2594,
-          "y": 54,
+          "width": 140,
+          "x": 2918,
+          "y": 55,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -6446,7 +6473,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Design ohne Titel-2.png",
+                      "image": "SchwarzesLoch.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6462,20 +6489,56 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3023,
-                            "y": 245
+                            "x": 1,
+                            "y": 0
                           },
                           {
-                            "x": 4014,
-                            "y": 245
+                            "x": 192,
+                            "y": 0
                           },
                           {
-                            "x": 4014,
-                            "y": 3090
+                            "x": 192,
+                            "y": 427
                           },
                           {
-                            "x": 3023,
-                            "y": 3090
+                            "x": 1,
+                            "y": 427
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Loch.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 192,
+                            "y": 0
+                          },
+                          {
+                            "x": 192,
+                            "y": 427
+                          },
+                          {
+                            "x": 1,
+                            "y": 427
                           }
                         ]
                       ]
