@@ -1998,6 +1998,60 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/4a6c2d461ae269854c11c7046816d00cc5e57ef97d7686ed0c3e2f212dd6f0db_Bridge.png",
           "name": "Bridge.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/flagRedHanging.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\flagRedHanging.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/flagRed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\flagRed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/flagRed2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\flagRed2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GreenHero_Jump_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GreenHero_Jump_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GreenHero_Jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GreenHero_Jump_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GreenHero_Jump_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GreenHero_Jump_2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3764,8 +3818,8 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.0417,
+                  "looping": false,
+                  "timeBetweenFrames": 0.065,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -4346,6 +4400,114 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "GreenHero_Jump_17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 20
+                          },
+                          {
+                            "x": 73.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 74,
+                            "y": 85
+                          },
+                          {
+                            "x": 25,
+                            "y": 85
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GreenHero_Jump_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 20
+                          },
+                          {
+                            "x": 73.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 74,
+                            "y": 85
+                          },
+                          {
+                            "x": 25,
+                            "y": 85
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GreenHero_Jump_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 25,
+                            "y": 20
+                          },
+                          {
+                            "x": 73.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 74,
+                            "y": 85
+                          },
+                          {
+                            "x": 25,
+                            "y": 85
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\GreenHero_Jump_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7623,6 +7785,82 @@
           "conditions": [
             {
               "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "GreenHero",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "GreenHero",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "GreenHero",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "GreenHero",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
               },
               "parameters": [
@@ -7716,6 +7954,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -9422,6 +9665,38 @@
           "x": 5006,
           "y": 248,
           "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "9ac150e5-2ff8-4be4-b7ce-56bda510e6e7",
+          "width": 0,
+          "x": 1180,
+          "y": 633,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Checkpoint2",
+          "persistentUuid": "3a816f4a-e483-4f7b-a004-aaed40813800",
+          "width": 0,
+          "x": 3017,
+          "y": 443,
+          "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14094,7 +14369,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\flagBlueHanging.png",
+                      "image": "assets\\flagRedHanging.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14142,7 +14417,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\flagBlue.png",
+                      "image": "assets\\flagRed.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14178,7 +14453,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\flagBlue2.png",
+                      "image": "assets\\flagRed2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14303,7 +14578,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\flagBlueHanging.png",
+                      "image": "assets\\flagRedHanging.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14554,10 +14829,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -14910,10 +15185,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -15231,6 +15506,76 @@
                 "Health",
                 "3",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "GreenHero",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "GreenHero",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "GreenHero",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "GreenHero",
+                "Flippable",
+                "no"
               ]
             }
           ]
