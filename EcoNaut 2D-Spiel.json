@@ -1963,6 +1963,41 @@
         "name": "Design ohne Titel (11).png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bronze Scythe 22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "45c2e909e7695777a8e1338b591bd94f07f100417bb191ed4f0cd90e19d38645_Bronze Scythe 22.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Weapons/Bronze Weapon/Scythe/45c2e909e7695777a8e1338b591bd94f07f100417bb191ed4f0cd90e19d38645_Bronze Scythe 22.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Design ohne Titel (15)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Design ohne Titel (15)3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bridge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bridge.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/4a6c2d461ae269854c11c7046816d00cc5e57ef97d7686ed0c3e2f212dd6f0db_Bridge.png",
+          "name": "Bridge.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -8418,7 +8453,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1956110053676976,
+        "zoomFactor": 0.21607397323876013,
         "windowMask": false
       },
       "objectsGroups": [
@@ -8458,8 +8493,8 @@
           "name": "GreenHero",
           "persistentUuid": "5c372396-6806-4462-a198-f7cd084cb92c",
           "width": 147,
-          "x": 126,
-          "y": 540,
+          "x": 128,
+          "y": 497,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -8551,7 +8586,7 @@
           "layer": "Hintergrund",
           "name": "Background",
           "persistentUuid": "78aa91ff-0209-4ee8-b0b7-bf8e7454c0ec",
-          "width": 5201,
+          "width": 6118,
           "x": -706,
           "y": -429,
           "zOrder": 24,
@@ -8740,8 +8775,8 @@
           "name": "Plattform1",
           "persistentUuid": "a05ebc8b-9fd1-41d9-993a-7c812440a2f3",
           "width": 418,
-          "x": 2061,
-          "y": 889,
+          "x": 2012,
+          "y": 885,
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -8802,8 +8837,8 @@
           "name": "Weltraumschrott_Müllsack",
           "persistentUuid": "e26e606d-8f27-4454-9e5b-58a1f171d7ee",
           "width": 87,
-          "x": 2329,
-          "y": 879,
+          "x": 2301,
+          "y": 868,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -8929,8 +8964,464 @@
           "persistentUuid": "c8fad8c5-9855-4801-8712-f8def5990089",
           "width": 230,
           "x": 2567,
-          "y": 488,
+          "y": 495,
           "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "373dd22a-be49-462b-b19c-c4b9c5f21625",
+          "width": 0,
+          "x": 2034,
+          "y": 223,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 9,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "layer": "",
+          "name": "Bridge",
+          "persistentUuid": "98d53b6a-4513-4d6f-ae3a-a9b3d9b9e4c4",
+          "width": 229,
+          "x": 3197,
+          "y": 537,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "layer": "",
+          "name": "Plattform5",
+          "persistentUuid": "2473700d-0ad7-427f-bc73-b18ca30737e3",
+          "width": 255,
+          "x": 2956,
+          "y": 468,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "layer": "",
+          "name": "Plattform5",
+          "persistentUuid": "08bffc44-4f5d-462f-991f-8a629c3a97f3",
+          "width": 255,
+          "x": 3407,
+          "y": 498,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 168,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "2f7e9cf9-1186-4590-87ce-350e41ae2b68",
+          "width": 69,
+          "x": 3101,
+          "y": 267,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 79,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Weltraumschrott",
+          "persistentUuid": "a05014ad-b874-4179-a5c6-ec01976b6b21",
+          "width": 0,
+          "x": 3442,
+          "y": 506,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 179,
+          "layer": "",
+          "name": "Plattform1",
+          "persistentUuid": "a8893ed8-9e37-49ca-ba16-10bf6314e14f",
+          "width": 358,
+          "x": 3030,
+          "y": 183,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 108,
+          "layer": "",
+          "name": "Plattform1",
+          "persistentUuid": "2ac7a8f6-58c8-4497-81e9-d11bd613923c",
+          "width": 174,
+          "x": 3543,
+          "y": 218,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 210,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Weltraumschrott_Flasche",
+          "persistentUuid": "62351555-63b4-462c-8b0a-4b23f21aa1d3",
+          "width": 0,
+          "x": 3606,
+          "y": 223,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 121,
+          "layer": "",
+          "name": "Plattform7_hoch_runter",
+          "persistentUuid": "e6c7fe8e-8073-46af-92ba-906aa128eb51",
+          "width": 251,
+          "x": 3796,
+          "y": 516,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 103,
+          "layer": "",
+          "name": "Plattformrechts_links2",
+          "persistentUuid": "5e4c2405-b6c5-4bf3-bc03-f2f9435321e2",
+          "width": 206,
+          "x": 3643,
+          "y": 918,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 115,
+          "layer": "",
+          "name": "Plattformrechts_links",
+          "persistentUuid": "db88e664-7bc3-4f9f-ae42-0ef27c683589",
+          "width": 230,
+          "x": 2984,
+          "y": 911,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Weltraumschrott_Müllsack",
+          "persistentUuid": "36823e1f-4883-4ffe-b296-e8e0d2f7e459",
+          "width": 0,
+          "x": 3052,
+          "y": 872,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "layer": "",
+          "name": "Bridge",
+          "persistentUuid": "6e38a5ce-435c-4c1f-b701-ff0f695798bd",
+          "width": 229,
+          "x": 3781,
+          "y": 938,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "layer": "",
+          "name": "Bridge",
+          "persistentUuid": "23b3211d-4ae4-4898-981e-f0e9a49c0b1d",
+          "width": 229,
+          "x": 3985,
+          "y": 945,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "layer": "",
+          "name": "Plattform5",
+          "persistentUuid": "4d93d4ef-86b2-45f8-ac6a-7a393a23e912",
+          "width": 255,
+          "x": 4192,
+          "y": 903,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 330,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Weltraumschrott",
+          "persistentUuid": "b4ea60c4-42f8-4e63-9f60-0944b88974e5",
+          "width": 0,
+          "x": 3909,
+          "y": 897,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 179,
+          "layer": "",
+          "name": "Plattform1",
+          "persistentUuid": "aa8dcb30-7bef-4fea-8906-f83a2d379f97",
+          "width": 358,
+          "x": 4175,
+          "y": 458,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 108,
+          "layer": "",
+          "name": "Plattform1",
+          "persistentUuid": "a953a98f-67f3-4fc7-b9ef-1e8c041b017f",
+          "width": 174,
+          "x": 4613,
+          "y": 907,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 87,
+          "layer": "",
+          "name": "Weltraumschrott_Müllsack",
+          "persistentUuid": "83fabbad-86e9-4d31-9c9b-52d10fee5afd",
+          "width": 87,
+          "x": 4688,
+          "y": 857,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 396,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "70fe9260-6066-4937-8b61-5b6e240cef6b",
+          "width": 69,
+          "x": 4344,
+          "y": 553,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 330,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Weltraumschrott",
+          "persistentUuid": "536b89b1-9a72-4c98-8c45-d11e29927a15",
+          "width": 0,
+          "x": 4377,
+          "y": 465,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 344,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Weltraumschrott_Flasche",
+          "persistentUuid": "69f5ca03-c4a7-43b3-9e94-9ebb305d37e3",
+          "width": 0,
+          "x": 4315,
+          "y": 901,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 179,
+          "layer": "",
+          "name": "Plattform1",
+          "persistentUuid": "58e36217-e8bb-4c05-9933-f884a3040ef5",
+          "width": 358,
+          "x": 4321,
+          "y": 181,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 204,
+          "layer": "",
+          "name": "NewTiledSprite",
+          "persistentUuid": "711fa4f9-2483-45e2-9dd0-2df72682a088",
+          "width": 69,
+          "x": 4437,
+          "y": 279,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 6,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "layer": "",
+          "name": "Bridge",
+          "persistentUuid": "2164f16f-cef4-4367-aa1f-2e553fb170c9",
+          "width": 229,
+          "x": 4497,
+          "y": 528,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 235,
+          "layer": "",
+          "name": "Plattform1",
+          "persistentUuid": "b421c125-7666-4aa6-a5f4-0d78d3b49881",
+          "width": 481,
+          "x": 4684,
+          "y": 454,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 339,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Weltraumschrott_Flasche",
+          "persistentUuid": "387692d7-d078-4a09-bda9-8cfce9ce74e0",
+          "width": 0,
+          "x": 4549,
+          "y": 201,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "layer": "",
+          "name": "Tor_Level_2",
+          "persistentUuid": "0e6ad5de-c2a3-46ab-96c0-3878152d1611",
+          "width": 110,
+          "x": 5006,
+          "y": 248,
+          "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12836,8 +13327,8 @@
           "behaviors": [
             {
               "name": "Platform",
-              "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "Jumpthru",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             }
@@ -12989,8 +13480,8 @@
           "behaviors": [
             {
               "name": "Platform",
-              "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "Jumpthru",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             }
@@ -13994,10 +14485,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -14061,7 +14552,15 @@
           "width": 32,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -14074,8 +14573,8 @@
           "behaviors": [
             {
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "NormalPlatform",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             },
@@ -14188,10 +14687,10 @@
               "masks": 1
             },
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -14400,6 +14899,219 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "c12f47812deba84880e817e7bb2e9b4d466e454e1ae13184babd8ea53f28d53c",
+          "name": "Bridge",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bridge.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 7
+                          },
+                          {
+                            "x": 0,
+                            "y": 7
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Plattformrechts_links2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "Jumpthru",
+              "canBeGrabbed": true,
+              "yGrabOffset": 0
+            },
+            {
+              "name": "RectangleMovement",
+              "type": "RectangleMovement::RectangleMovement",
+              "Width": 300,
+              "Height": 0,
+              "Clockwise": true,
+              "HorizontalEdgeDuration": 4,
+              "VerticalEdgeDuration": 1,
+              "Left": 1.00000000000091,
+              "Top": 1.00000000000091,
+              "Progress": 1.00000000000091,
+              "OldX": 1.00000000000091,
+              "OldY": 1.00000000000091,
+              "Easing": "bounce",
+              "InitialPosition": "Top-right corner",
+              "ToogleClockwise": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Design ohne Titel (16).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1380,
+                            "y": 646
+                          },
+                          {
+                            "x": 5341,
+                            "y": 646
+                          },
+                          {
+                            "x": 5341,
+                            "y": 2848
+                          },
+                          {
+                            "x": 1380,
+                            "y": 2848
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tor_Level_2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "SchwarzesLoch.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 192,
+                            "y": 0
+                          },
+                          {
+                            "x": 192,
+                            "y": 427
+                          },
+                          {
+                            "x": 1,
+                            "y": 427
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -14421,6 +15133,9 @@
             "objectName": "Plattformrechts_links"
           },
           {
+            "objectName": "Plattformrechts_links2"
+          },
+          {
             "objectName": "Plattform7_hoch_runter"
           },
           {
@@ -14440,6 +15155,9 @@
           },
           {
             "objectName": "Tor"
+          },
+          {
+            "objectName": "Tor_Level_2"
           },
           {
             "objectName": "NewSprite6"
@@ -14476,6 +15194,9 @@
           },
           {
             "objectName": "New3DBox"
+          },
+          {
+            "objectName": "Bridge"
           }
         ]
       },
@@ -14654,6 +15375,75 @@
                 "Background",
                 "=",
                 "CameraCenterX()/3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GreenHero",
+                "Weltraumschrott",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Weltraumschrott",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "c52f1dacc263a2a6dc94e712a2a148f909b73372fa8e0622cb237fdc6a72fd6c_Coins 8.aac",
+                "",
+                "GlobalVariable(Einstellungen.Ton)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Score",
+                    "Text",
+                    "=",
+                    "\"Score: \" + VariableString(Score)"
+                  ]
+                }
               ]
             }
           ]
@@ -15151,6 +15941,173 @@
                 "fa5dca659079f7d3bbf00d0a7dc1acde7e080c669034f4d2e64c309b22835220_Infinite Wonder.aac",
                 "yes",
                 "GlobalVariable(Einstellungen.Musik)",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GreenHero",
+                "Weltraumschrott_Müllsack",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Weltraumschrott_Müllsack",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "c52f1dacc263a2a6dc94e712a2a148f909b73372fa8e0622cb237fdc6a72fd6c_Coins 8.aac",
+                "",
+                "GlobalVariable(Einstellungen.Ton)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "5"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Score",
+                    "Text",
+                    "=",
+                    "\"Score: \" + VariableString(Score)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GreenHero",
+                "Weltraumschrott_Flasche",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Weltraumschrott_Flasche",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "c52f1dacc263a2a6dc94e712a2a148f909b73372fa8e0622cb237fdc6a72fd6c_Coins 8.aac",
+                "",
+                "GlobalVariable(Einstellungen.Ton)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Score",
+                    "Text",
+                    "=",
+                    "\"Score: \" + VariableString(Score)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GreenHero",
+                "Tor_Level_2",
+                "=",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Hauptmenü\"",
                 ""
               ]
             }
