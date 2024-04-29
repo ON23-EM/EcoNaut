@@ -2052,6 +2052,33 @@
         "name": "assets\\GreenHero_Jump_2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Design ohne Titel-7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Design ohne Titel-7.png\",\"extension\":\".png\"}",
+        "name": "Design ohne Titel-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Design ohne Titel-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Design ohne Titel-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "waschmaschine ohne Titel-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "waschmaschine ohne Titel-7.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2091,6 +2118,11 @@
           "value": 0
         }
       ]
+    },
+    {
+      "name": "Dead",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -9700,6 +9732,56 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 108,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Gegner_Waschmaschine",
+          "persistentUuid": "7d2991f2-9e42-49e9-8ee7-4e25f3f5d365",
+          "width": 119,
+          "x": 3382,
+          "y": 821,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Gegner_Waschmaschine",
+          "persistentUuid": "0246de10-7b33-4850-a885-47c2bdc5c6ab",
+          "width": 0,
+          "x": 5014,
+          "y": 380,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 108,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Waschmaschine_an",
+          "persistentUuid": "358f7488-9899-4741-a582-4fa68a8103c3",
+          "width": 108,
+          "x": 1292,
+          "y": 597,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -15387,6 +15469,158 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Gegner_Waschmaschine",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Dead",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "RectangleMovement",
+              "type": "RectangleMovement::RectangleMovement",
+              "Width": 0,
+              "Height": 100,
+              "Clockwise": true,
+              "HorizontalEdgeDuration": 0,
+              "VerticalEdgeDuration": 1,
+              "Left": 1.00000000000091,
+              "Top": 1.00000000000091,
+              "Progress": 1.00000000000091,
+              "OldX": 1.00000000000091,
+              "OldY": 1.00000000000091,
+              "Easing": "easeInOutSine",
+              "InitialPosition": "Top-left corner",
+              "ToogleClockwise": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Design ohne Titel-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 1
+                          },
+                          {
+                            "x": 51,
+                            "y": 1
+                          },
+                          {
+                            "x": 51,
+                            "y": 58
+                          },
+                          {
+                            "x": 8,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Waschmaschine_an",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Waaser",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "aus",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Design ohne Titel-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 1
+                          },
+                          {
+                            "x": 51,
+                            "y": 1
+                          },
+                          {
+                            "x": 51,
+                            "y": 58
+                          },
+                          {
+                            "x": 8,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -15394,6 +15628,9 @@
         "children": [
           {
             "objectName": "Background"
+          },
+          {
+            "objectName": "Waschmaschine_an"
           },
           {
             "objectName": "GreenHero"
@@ -15472,6 +15709,9 @@
           },
           {
             "objectName": "Bridge"
+          },
+          {
+            "objectName": "Gegner_Waschmaschine"
           }
         ]
       },
@@ -15505,6 +15745,31 @@
                 "GreenHero",
                 "Health",
                 "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "fa5dca659079f7d3bbf00d0a7dc1acde7e080c669034f4d2e64c309b22835220_Infinite Wonder.aac",
+                "yes",
+                "GlobalVariable(Einstellungen.Musik)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Checkpoints::SaveCheckpoint"
+              },
+              "parameters": [
+                "",
+                "GreenHero",
+                "GreenHero.X()",
+                "GreenHero.Y()",
+                "\"GreenHeroPosition\"",
                 ""
               ]
             }
@@ -15884,34 +16149,6 @@
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Checkpoints::SaveCheckpoint"
-              },
-              "parameters": [
-                "",
-                "GreenHero",
-                "GreenHero.X()",
-                "GreenHero.Y()",
-                "\"GreenHeroPosition\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -16269,33 +16506,6 @@
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "fa5dca659079f7d3bbf00d0a7dc1acde7e080c669034f4d2e64c309b22835220_Infinite Wonder.aac",
-                "yes",
-                "GlobalVariable(Einstellungen.Musik)",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -16457,6 +16667,302 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GreenHero",
+                "Gegner_Waschmaschine",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Gegner_Waschmaschine",
+                "Dead",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "GreenHero",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Gegner_Waschmaschine",
+                    "Dead",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "10"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SetCanJump"
+                      },
+                      "parameters": [
+                        "GreenHero",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "GreenHero",
+                        "PlatformerObject"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "c74fd627b20988f633762725eed4cc44996aeed211490dc8d8769eb10177c07a_Jump_Start_01.wav",
+                        "70",
+                        "",
+                        "GlobalVariable(Einstellungen.Ton)",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Gegner_Waschmaschine",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "GreenHero",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "GreenHero",
+                    "Health",
+                    "1",
+                    "no",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Checkpoints::LoadCheckpoint"
+                  },
+                  "parameters": [
+                    "",
+                    "Checkpoint2",
+                    "GreenHero",
+                    "\"GreenHeroPosition1\"",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\dead-8bit-41400.mp3",
+                    "",
+                    "GlobalVariable(Einstellungen.Musik)",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GreenHero",
+                "Waschmaschine_an",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "GreenHero",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Waschmaschine_an",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "GreenHero",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "GreenHero",
+                    "Health",
+                    "1",
+                    "no",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Checkpoints::LoadCheckpoint"
+                  },
+                  "parameters": [
+                    "",
+                    "Checkpoint2",
+                    "GreenHero",
+                    "\"GreenHeroPosition1\"",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\dead-8bit-41400.mp3",
+                    "",
+                    "GlobalVariable(Einstellungen.Musik)",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
