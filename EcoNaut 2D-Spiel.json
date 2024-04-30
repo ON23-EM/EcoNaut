@@ -9705,7 +9705,6 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "keepRatio": true,
           "layer": "",
           "name": "Checkpoint2",
           "persistentUuid": "3a816f4a-e483-4f7b-a004-aaed40813800",
@@ -9722,7 +9721,6 @@
           "customSize": true,
           "depth": 1,
           "height": 108,
-          "keepRatio": true,
           "layer": "",
           "name": "Gegner_Waschmaschine",
           "persistentUuid": "7d2991f2-9e42-49e9-8ee7-4e25f3f5d365",
@@ -9738,7 +9736,6 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "keepRatio": true,
           "layer": "",
           "name": "Gegner_Waschmaschine",
           "persistentUuid": "0246de10-7b33-4850-a885-47c2bdc5c6ab",
@@ -9755,7 +9752,6 @@
           "customSize": true,
           "depth": 1,
           "height": 108,
-          "keepRatio": true,
           "layer": "",
           "name": "Waschmaschine_an",
           "persistentUuid": "358f7488-9899-4741-a582-4fa68a8103c3",
@@ -9771,7 +9767,6 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "keepRatio": true,
           "layer": "",
           "name": "Checkpoint",
           "persistentUuid": "3a3cee51-0e0f-4ffd-b383-ba584efe9601",
@@ -13684,7 +13679,7 @@
           "behaviors": [
             {
               "name": "Platform",
-              "platformType": "NormalPlatform",
+              "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
               "yGrabOffset": 0
@@ -15501,6 +15496,8 @@
               "Flippable": "Flippable"
             },
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -15513,9 +15510,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
