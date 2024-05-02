@@ -8728,7 +8728,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3111974942445285,
+        "zoomFactor": 0.41943397827591766,
         "windowMask": false
       },
       "objectsGroups": [
@@ -8768,8 +8768,8 @@
           "name": "GreenHero",
           "persistentUuid": "5c372396-6806-4462-a198-f7cd084cb92c",
           "width": 147,
-          "x": 128,
-          "y": 497,
+          "x": 125,
+          "y": 566,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -9005,22 +9005,6 @@
           "x": 707,
           "y": 436,
           "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 245,
-          "layer": "",
-          "name": "Plattform1",
-          "persistentUuid": "88367777-06a5-4d82-aa83-d0338bf49758",
-          "width": 489,
-          "x": 1063,
-          "y": 619,
-          "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9734,21 +9718,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Gegner_Waschmaschine",
-          "persistentUuid": "0246de10-7b33-4850-a885-47c2bdc5c6ab",
-          "width": 0,
-          "x": 5014,
-          "y": 380,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 108,
@@ -9756,8 +9725,8 @@
           "name": "Waschmaschine_an",
           "persistentUuid": "358f7488-9899-4741-a582-4fa68a8103c3",
           "width": 108,
-          "x": 1292,
-          "y": 597,
+          "x": 1200,
+          "y": 613,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -9774,6 +9743,38 @@
           "x": 1152,
           "y": 634,
           "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 108,
+          "layer": "",
+          "name": "Waschmaschine_an",
+          "persistentUuid": "da6b9d13-5145-4396-8165-8c4f77576c86",
+          "width": 108,
+          "x": 4825,
+          "y": 423,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 252,
+          "layer": "",
+          "name": "Plattform2",
+          "persistentUuid": "1b6f96da-63bc-4d74-a6a5-bdc19efeb441",
+          "width": 504,
+          "x": 1050,
+          "y": 617,
+          "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14838,9 +14839,9 @@
           "behaviors": [
             {
               "name": "Platform",
+              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -15616,6 +15617,142 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Plattform6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Design ohne Titel (14).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 483,
+                            "y": 1250
+                          },
+                          {
+                            "x": 6614,
+                            "y": 1250
+                          },
+                          {
+                            "x": 6614,
+                            "y": 2660
+                          },
+                          {
+                            "x": 483,
+                            "y": 2660
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Plattform2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Design ohne Titel (15).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 505,
+                            "y": 1193
+                          },
+                          {
+                            "x": 6372,
+                            "y": 1193
+                          },
+                          {
+                            "x": 6372,
+                            "y": 2482
+                          },
+                          {
+                            "x": 505,
+                            "y": 2482
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -15634,7 +15771,13 @@
             "objectName": "Plattform1"
           },
           {
+            "objectName": "Plattform2"
+          },
+          {
             "objectName": "Plattform5"
+          },
+          {
+            "objectName": "Plattform6"
           },
           {
             "objectName": "Plattformrechts_links"
@@ -16438,7 +16581,7 @@
               },
               "parameters": [
                 "GreenHero",
-                "Checkpoint3",
+                "Checkpoint",
                 "",
                 "",
                 ""
