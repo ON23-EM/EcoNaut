@@ -8799,7 +8799,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.281725993207961,
+        "zoomFactor": 0.8141881203710057,
         "windowMask": false
       },
       "objectsGroups": [
@@ -9163,9 +9163,9 @@
           "layer": "Hintergrund",
           "name": "RedFlatBar",
           "persistentUuid": "14de85f8-d1e3-473d-8067-69c126d79183",
-          "width": 363,
-          "x": 1559,
-          "y": 57,
+          "width": 503,
+          "x": 1361,
+          "y": -1,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -13819,7 +13819,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Speiler_Kuggeln",
+          "name": "Spieler_Kugeln",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -13929,7 +13929,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "8 / 16",
+              "string": "50/50",
               "font": "",
               "textAlignment": "center",
               "characterSize": 16,
@@ -13952,7 +13952,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "8 / 16",
+                "text": "50/50",
                 "font": "",
                 "textAlignment": "center",
                 "characterSize": 16,
@@ -13984,7 +13984,7 @@
             "objectName": "NewSprite4"
           },
           {
-            "objectName": "Speiler_Kuggeln"
+            "objectName": "Spieler_Kugeln"
           },
           {
             "objectName": "NewSprite6"
@@ -14372,7 +14372,7 @@
               },
               "parameters": [
                 "",
-                "Speiler_Kuggeln",
+                "Spieler_Kugeln",
                 "GreenHero.CenterX()",
                 "GreenHero.CenterY()",
                 ""
@@ -14400,7 +14400,7 @@
                 "value": "AddForceAL"
               },
               "parameters": [
-                "Speiler_Kuggeln",
+                "Spieler_Kugeln",
                 "-90",
                 "300",
                 ""
@@ -14851,7 +14851,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Speiler_Kuggeln",
+                "Spieler_Kugeln",
                 "durchlässige_Plattform",
                 "",
                 "",
@@ -14865,7 +14865,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Speiler_Kuggeln",
+                "Spieler_Kugeln",
                 ""
               ]
             }
@@ -14879,7 +14879,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Speiler_Kuggeln",
+                "Spieler_Kugeln",
                 "feste_Plattform",
                 "",
                 "",
@@ -14893,7 +14893,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Speiler_Kuggeln",
+                "Spieler_Kugeln",
                 ""
               ]
             }
@@ -14907,7 +14907,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Speiler_Kuggeln",
+                "Spieler_Kugeln",
                 "Waschmaschine",
                 "",
                 "",
@@ -14927,7 +14927,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Speiler_Kuggeln",
+                "Spieler_Kugeln",
                 ""
               ]
             },
