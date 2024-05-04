@@ -13624,7 +13624,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "kugeln",
+                      "image": "Design ohne Titel (12).png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13640,19 +13640,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 2
+                            "x": 7,
+                            "y": 0
                           },
                           {
-                            "x": 63,
-                            "y": 2
+                            "x": 54,
+                            "y": 0
                           },
                           {
-                            "x": 63,
+                            "x": 54,
                             "y": 60
                           },
                           {
-                            "x": 1,
+                            "x": 7,
                             "y": 60
                           }
                         ]
@@ -14014,10 +14014,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -22670,22 +22670,6 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Bossfight\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
                 "value": "TiledSpriteObject::XOffset"
               },
               "parameters": [
@@ -23369,7 +23353,7 @@
               },
               "parameters": [
                 "",
-                "\"Hauptmenü\"",
+                "\"Bossfight\"",
                 ""
               ]
             }
