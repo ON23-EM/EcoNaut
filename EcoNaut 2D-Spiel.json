@@ -2150,6 +2150,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
           "name": "Flat Bar White Border.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/barriere.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "barriere",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8799,7 +8808,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3325387091250835,
+        "zoomFactor": 0.3797121001948003,
         "windowMask": false
       },
       "objectsGroups": [
@@ -8968,8 +8977,8 @@
           "layer": "Hintergrund",
           "name": "NewSprite4",
           "persistentUuid": "994e1b52-e4c0-48fa-9d07-d6fd51848037",
-          "width": 3234,
-          "x": -487,
+          "width": 3383,
+          "x": -522,
           "y": -230,
           "zOrder": 22,
           "numberProperties": [],
@@ -9064,38 +9073,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "rechts",
-          "persistentUuid": "597ed945-0ff1-460e-beb6-f4eca19e19d5",
-          "width": 0,
-          "x": 7,
-          "y": 32,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "links",
-          "persistentUuid": "b27bc9d7-e37e-463d-b460-422a3c9c4714",
-          "width": 0,
-          "x": 1853,
-          "y": 23,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "feste_Plattform",
           "persistentUuid": "970c7731-b0c7-483d-b201-eb8af2ff3372",
           "width": 0,
@@ -9167,6 +9144,72 @@
           "x": 1361,
           "y": -1,
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1169,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "barriere",
+          "persistentUuid": "5b6666db-57b6-4221-96e3-cc811491b336",
+          "width": 64,
+          "x": 1989,
+          "y": -24,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1169,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "barriere",
+          "persistentUuid": "6e400951-f432-4cc3-993a-d6ba4099771c",
+          "width": 64,
+          "x": -28,
+          "y": -23,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "rechts",
+          "persistentUuid": "616ca9c1-8da5-4f8d-aafb-32ba6003a335",
+          "width": 0,
+          "x": 1,
+          "y": 21,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "links",
+          "persistentUuid": "2432a902-e4ee-4b6a-b375-5e9039d59e03",
+          "width": 0,
+          "x": 1960,
+          "y": -1,
+          "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13960,6 +14003,75 @@
               }
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "barriere",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "barriere",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "barriere",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 28,
+                            "y": 0
+                          },
+                          {
+                            "x": 29,
+                            "y": 0
+                          },
+                          {
+                            "x": 29,
+                            "y": 64
+                          },
+                          {
+                            "x": 28,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -14003,6 +14115,9 @@
           },
           {
             "objectName": "RedFlatBar"
+          },
+          {
+            "objectName": "barriere"
           }
         ]
       },
@@ -14968,6 +15083,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -15062,6 +15182,39 @@
           "name": "UI",
           "renderingType": "",
           "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer",
+          "renderingType": "",
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
