@@ -2186,6 +2186,100 @@
         "name": "kisspng-astronaut-5d3fd44144aae8.2476025315644641932813.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Design ohne Titel (19).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Design ohne Titel (19).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Design ohne Titel (19)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Design ohne Titel (19)2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Design ohne Titel (19)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Design ohne Titel (19)3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Design ohne Titel (19)4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Design ohne Titel (19)4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Design ohne Titel (20).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Design ohne Titel (20).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Design ohne Titel (21).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Design ohne Titel (21).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Design ohne Titel (22).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Design ohne Titel (22).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Design ohne Titel (23).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Design ohne Titel (23).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar Red Fill Bar2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8835,7 +8929,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4950840073748982,
+        "zoomFactor": 0.2636457673770863,
         "windowMask": false
       },
       "objectsGroups": [
@@ -8872,14 +8966,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2,
-          "height": 702,
+          "depth": 1,
+          "height": 182,
           "layer": "",
           "name": "NewSprite3",
           "persistentUuid": "5ef74014-dd8c-4108-83bb-6ff3d680efc5",
-          "width": 1404,
-          "x": 138,
-          "y": 465,
+          "width": 363,
+          "x": 729,
+          "y": 581,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -8933,66 +9027,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "feste_Plattform",
-          "persistentUuid": "29a892e7-e349-477a-8e39-8b6675f58bcb",
-          "width": 0,
-          "x": 974,
-          "y": 987,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "feste_Plattform",
-          "persistentUuid": "bf1ee74c-245c-4bd3-a788-6b4d5740aff2",
-          "width": 0,
-          "x": 1232,
-          "y": 988,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "feste_Plattform",
-          "persistentUuid": "a8107fdb-5bab-4ba9-ad88-b5c1596aff32",
-          "width": 0,
-          "x": 1484,
-          "y": 987,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "feste_Plattform",
-          "persistentUuid": "8dfc2480-daa8-4a66-9b2f-98fdbb274fbb",
-          "width": 0,
-          "x": 1736,
-          "y": 987,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 1105,
@@ -9012,42 +9046,12 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "durchlässige_Plattform",
-          "persistentUuid": "13ba53f2-36b4-48d1-b2dd-b63adb1b5737",
-          "width": 0,
-          "x": 263,
-          "y": 687,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
           "name": "Leiter",
           "persistentUuid": "929dc436-b975-40c1-aebd-7a0b051168a7",
           "width": 0,
           "x": 363,
           "y": 763,
           "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "feste_Plattform",
-          "persistentUuid": "448be58d-7172-4d41-bec6-bd406cd9a151",
-          "width": 0,
-          "x": 612,
-          "y": 567,
-          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9086,66 +9090,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "feste_Plattform",
-          "persistentUuid": "970c7731-b0c7-483d-b201-eb8af2ff3372",
-          "width": 0,
-          "x": -31,
-          "y": 987,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "feste_Plattform",
-          "persistentUuid": "c271c5d3-5863-4b32-b96b-206e2e8a06c0",
-          "width": 0,
-          "x": 227,
-          "y": 988,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "feste_Plattform",
-          "persistentUuid": "3bebe3ce-0a97-4b61-a807-8fc887cef4ec",
-          "width": 0,
-          "x": 479,
-          "y": 987,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "feste_Plattform",
-          "persistentUuid": "9d0d24c3-d7b8-4b26-8f1e-e8897b0bf5b0",
-          "width": 0,
-          "x": 731,
-          "y": 987,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 48,
           "height": 65,
@@ -9153,8 +9097,8 @@
           "name": "RedFlatBar",
           "persistentUuid": "14de85f8-d1e3-473d-8067-69c126d79183",
           "width": 503,
-          "x": 1361,
-          "y": -1,
+          "x": 1364,
+          "y": 39,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -9218,6 +9162,70 @@
           "x": 1960,
           "y": -1,
           "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "f1f12b1d-eda7-4394-8751-88428f93c392",
+          "width": 767,
+          "x": -19,
+          "y": 869,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "ead94020-8453-4207-ac28-035d1f15c21d",
+          "width": 767,
+          "x": 673,
+          "y": 867,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "1bda7cf4-be91-49de-9e53-ae17e32c55ca",
+          "width": 767,
+          "x": 1353,
+          "y": 867,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "abdf87ce-9fc8-4947-a76a-4e3970e062e4",
+          "width": 340,
+          "x": 281,
+          "y": 688,
+          "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13435,7 +13443,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Platform 1.png",
+                      "image": "Design ohne Titel (19)2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13452,19 +13460,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 518
                           },
                           {
-                            "x": 270,
-                            "y": 0
+                            "x": 6912,
+                            "y": 518
                           },
                           {
-                            "x": 270,
-                            "y": 99
+                            "x": 6912,
+                            "y": 2937
                           },
                           {
                             "x": 0,
-                            "y": 99
+                            "y": 2937
                           }
                         ]
                       ]
@@ -13970,7 +13978,7 @@
               "height": 24,
               "leftMargin": 0,
               "rightMargin": 0,
-              "texture": "Flat Bar Red Fill Bar.png",
+              "texture": "212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png2",
               "tiled": true,
               "topMargin": 0,
               "width": 24
@@ -13983,11 +13991,11 @@
               "string": "50/50",
               "font": "",
               "textAlignment": "center",
-              "characterSize": 16,
+              "characterSize": 25,
               "color": {
-                "b": 74,
-                "g": 74,
-                "r": 74
+                "b": 255,
+                "g": 255,
+                "r": 255
               },
               "content": {
                 "bold": false,
@@ -14006,8 +14014,8 @@
                 "text": "50/50",
                 "font": "",
                 "textAlignment": "center",
-                "characterSize": 16,
-                "color": "74;74;74"
+                "characterSize": 25,
+                "color": "255;255;255"
               }
             }
           }
@@ -14080,6 +14088,210 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Design ohne Titel (21).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1092
+                          },
+                          {
+                            "x": 6911,
+                            "y": 1092
+                          },
+                          {
+                            "x": 6911,
+                            "y": 2365
+                          },
+                          {
+                            "x": 0,
+                            "y": 2365
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Jumpthru",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Design ohne Titel (22).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 413,
+                            "y": 115
+                          },
+                          {
+                            "x": 6566,
+                            "y": 115
+                          },
+                          {
+                            "x": 6566,
+                            "y": 3376
+                          },
+                          {
+                            "x": 413,
+                            "y": 3376
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Design ohne Titel (23).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 89,
+                            "y": 903
+                          },
+                          {
+                            "x": 6912,
+                            "y": 903
+                          },
+                          {
+                            "x": 6912,
+                            "y": 2882
+                          },
+                          {
+                            "x": 89,
+                            "y": 2882
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -14119,6 +14331,9 @@
             "objectName": "durchlässige_Plattform"
           },
           {
+            "objectName": "NewSprite2"
+          },
+          {
             "objectName": "Leiter"
           },
           {
@@ -14126,6 +14341,12 @@
           },
           {
             "objectName": "barriere"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewSprite3"
           }
         ]
       },
@@ -15310,7 +15531,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.29122588669111943,
+        "zoomFactor": 0.11894533708001442,
         "windowMask": false
       },
       "objectsGroups": [
@@ -15617,8 +15838,8 @@
           "name": "Plattform1",
           "persistentUuid": "fc206ce0-861b-45e0-87b9-d0145c2df463",
           "width": 301,
-          "x": -120,
-          "y": 316,
+          "x": -176,
+          "y": 322,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -15679,7 +15900,7 @@
           "name": "Weltraumschrott_Müllsack",
           "persistentUuid": "f913e634-90bf-4aaf-ad18-6b8a15e41c9c",
           "width": 77,
-          "x": -84,
+          "x": -134,
           "y": 304,
           "zOrder": 47,
           "numberProperties": [],
