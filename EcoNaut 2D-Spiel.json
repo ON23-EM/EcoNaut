@@ -2159,6 +2159,15 @@
         "name": "barriere",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Firefly Space im Welltall für ein 2d Spiel dunkel gräulich und realistisch gestaltet minimalistik, k(1).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Firefly Space im Welltall für ein 2d Spiel dunkel gräulich und realistisch gestaltet minimalistik, k(1).jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8972,14 +8981,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1637,
+          "height": 1105,
           "keepRatio": true,
           "layer": "Hintergrund",
           "name": "NewSprite4",
           "persistentUuid": "994e1b52-e4c0-48fa-9d07-d6fd51848037",
-          "width": 3383,
-          "x": -522,
-          "y": -230,
+          "width": 2280,
+          "x": -151,
+          "y": -8,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -13262,7 +13271,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Design ohne Titel (9).png",
+                      "image": "Firefly Space im Welltall für ein 2d Spiel dunkel gräulich und realistisch gestaltet minimalistik, k(1).jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13278,20 +13287,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1038,
-                            "y": 479
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 5174,
-                            "y": 479
+                            "x": 2688,
+                            "y": 0
                           },
                           {
-                            "x": 5174,
-                            "y": 2776
+                            "x": 2688,
+                            "y": 1536
                           },
                           {
-                            "x": 1038,
-                            "y": 2776
+                            "x": 0,
+                            "y": 1536
                           }
                         ]
                       ]
