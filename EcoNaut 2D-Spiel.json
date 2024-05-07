@@ -2280,15 +2280,6 @@
         "name": "212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png2",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite5",
-        "smoothed": true,
-        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2312,6 +2303,7 @@
       "value": true
     },
     {
+      "folded": true,
       "name": "Einstellungen",
       "type": "structure",
       "children": [
@@ -2409,7 +2401,7 @@
           "depth": 2,
           "height": 702,
           "layer": "",
-          "name": "Barriere",
+          "name": "NewSprite3",
           "persistentUuid": "5ef74014-dd8c-4108-83bb-6ff3d680efc5",
           "width": 1404,
           "x": 138,
@@ -2424,7 +2416,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Barriere",
+          "name": "NewSprite3",
           "persistentUuid": "7d1acbf8-8e37-4201-906e-30cd77380570",
           "width": 0,
           "x": 1705,
@@ -2683,23 +2675,6 @@
           "x": 2233,
           "y": 440,
           "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1138,
-          "keepRatio": true,
-          "layer": "Layer",
-          "name": "Barriere",
-          "persistentUuid": "4c7d8958-853d-42e1-805d-5a23045d25ab",
-          "width": 64,
-          "x": 17,
-          "y": -41,
-          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7943,75 +7918,6 @@
           "effects": [],
           "behaviors": [],
           "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Barriere",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "canBeGrabbed": true,
-              "name": "Platform",
-              "platformType": "NormalPlatform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "NewSprite3",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 28,
-                            "y": 0
-                          },
-                          {
-                            "x": 29,
-                            "y": 0
-                          },
-                          {
-                            "x": 29,
-                            "y": 64
-                          },
-                          {
-                            "x": 28,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8070,9 +7976,6 @@
           },
           {
             "objectName": "NewSprite2"
-          },
-          {
-            "objectName": "Barriere"
           }
         ]
       },
@@ -8376,7 +8279,7 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "ModVarGlobal"
               },
               "parameters": [
                 "Score",
@@ -8398,7 +8301,7 @@
                     "Score",
                     "Text",
                     "=",
-                    "\"Score: \" + VariableString(Score)"
+                    "\"Score: \" + GlobalVariableString(Score)"
                   ]
                 }
               ]
@@ -8950,39 +8853,6 @@
               "booleanParameters": {}
             }
           ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Layer",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
         }
       ],
       "behaviorsSharedData": [
@@ -9060,7 +8930,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.31119749424452803,
+        "zoomFactor": 0.2636457673770863,
         "windowMask": false
       },
       "objectsGroups": [
@@ -9100,12 +8970,27 @@
           "depth": 1,
           "height": 182,
           "layer": "",
-          "name": "plattform",
+          "name": "NewSprite3",
           "persistentUuid": "5ef74014-dd8c-4108-83bb-6ff3d680efc5",
           "width": 363,
           "x": 729,
           "y": 581,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NewSprite3",
+          "persistentUuid": "7d1acbf8-8e37-4201-906e-30cd77380570",
+          "width": 0,
+          "x": 1705,
+          "y": 621,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9178,7 +9063,7 @@
           "depth": 1,
           "height": 292,
           "layer": "",
-          "name": "Raumschiff",
+          "name": "Waschmaschine",
           "persistentUuid": "db7fa590-52e7-4a93-ac8c-8563542cbed4",
           "width": 468,
           "x": 880,
@@ -9288,7 +9173,7 @@
           "depth": 1,
           "height": 384,
           "layer": "",
-          "name": "Boden",
+          "name": "NewSprite",
           "persistentUuid": "f1f12b1d-eda7-4394-8751-88428f93c392",
           "width": 767,
           "x": -19,
@@ -9304,11 +9189,11 @@
           "depth": 1,
           "height": 384,
           "layer": "",
-          "name": "Boden",
+          "name": "NewSprite",
           "persistentUuid": "ead94020-8453-4207-ac28-035d1f15c21d",
           "width": 767,
-          "x": 668,
-          "y": 870,
+          "x": 673,
+          "y": 867,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -9320,11 +9205,11 @@
           "depth": 1,
           "height": 384,
           "layer": "",
-          "name": "Boden",
+          "name": "NewSprite",
           "persistentUuid": "1bda7cf4-be91-49de-9e53-ae17e32c55ca",
           "width": 767,
-          "x": 1350,
-          "y": 870,
+          "x": 1353,
+          "y": 867,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -9336,7 +9221,7 @@
           "depth": 1,
           "height": 128,
           "layer": "",
-          "name": "durchläßige_Plattform",
+          "name": "NewSprite2",
           "persistentUuid": "abdf87ce-9fc8-4947-a76a-4e3970e062e4",
           "width": 340,
           "x": 281,
@@ -13670,6 +13555,74 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
+          "name": "durchlässige_Plattform",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "Jumpthru",
+              "canBeGrabbed": true,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Platform 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 270,
+                            "y": 0
+                          },
+                          {
+                            "x": 270,
+                            "y": 99
+                          },
+                          {
+                            "x": 0,
+                            "y": 99
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
           "name": "kugeln",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -13731,7 +13684,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Raumschiff",
+          "name": "Waschmaschine",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -14140,7 +14093,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Boden",
+          "name": "NewSprite",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14208,7 +14161,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "durchläßige_Plattform",
+          "name": "NewSprite2",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14276,7 +14229,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "plattform",
+          "name": "NewSprite3",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14352,7 +14305,7 @@
             "objectName": "kugeln"
           },
           {
-            "objectName": "Raumschiff"
+            "objectName": "Waschmaschine"
           },
           {
             "objectName": "rechts"
@@ -14376,7 +14329,10 @@
             "objectName": "feste_Plattform"
           },
           {
-            "objectName": "durchläßige_Plattform"
+            "objectName": "durchlässige_Plattform"
+          },
+          {
+            "objectName": "NewSprite2"
           },
           {
             "objectName": "Leiter"
@@ -14388,10 +14344,10 @@
             "objectName": "barriere"
           },
           {
-            "objectName": "Boden"
+            "objectName": "NewSprite"
           },
           {
-            "objectName": "plattform"
+            "objectName": "NewSprite3"
           }
         ]
       },
@@ -14803,11 +14759,11 @@
           "actions": [
             {
               "type": {
-                "value": "AddForceVers"
+                "value": "AddForceAL"
               },
               "parameters": [
                 "kugeln",
-                "GreenHero",
+                "90",
                 "300",
                 ""
               ]
@@ -14822,7 +14778,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "left_right",
                 "=",
                 "0"
@@ -14835,7 +14791,7 @@
                 "value": "AddForceAL"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "0",
                 "200",
                 ""
@@ -14851,7 +14807,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "left_right",
                 "=",
                 "1"
@@ -14864,7 +14820,7 @@
                 "value": "AddForceAL"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "180",
                 "200",
                 ""
@@ -14880,7 +14836,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "rechts",
                 "",
                 "",
@@ -14894,7 +14850,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "left_right",
                 "=",
                 "0"
@@ -14910,7 +14866,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "links",
                 "",
                 "",
@@ -14924,7 +14880,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "left_right",
                 "=",
                 "1"
@@ -14940,7 +14896,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "attack",
                 "=",
                 "0"
@@ -14967,7 +14923,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "attack",
                 "=",
                 "RandomInRange(1, 3)"
@@ -14983,7 +14939,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "attack",
                 "=",
                 "1"
@@ -15004,8 +14960,8 @@
               "parameters": [
                 "",
                 "kugeln",
-                "Raumschiff.PointX(\"fire\")",
-                "Raumschiff.PointY(\"fire\")",
+                "Waschmaschine.PointX(\"fire\")",
+                "Waschmaschine.PointY(\"fire\")",
                 ""
               ]
             },
@@ -15022,7 +14978,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "attack",
                 "=",
                 "0"
@@ -15038,7 +14994,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "attack",
                 "=",
                 "2"
@@ -15059,8 +15015,8 @@
               "parameters": [
                 "",
                 "kugeln",
-                "Raumschiff.PointX(\"fire\") + 50",
-                "Raumschiff.PointY(\"fire\")",
+                "Waschmaschine.PointX(\"fire\") + 50",
+                "Waschmaschine.PointY(\"fire\")",
                 ""
               ]
             },
@@ -15071,8 +15027,8 @@
               "parameters": [
                 "",
                 "kugeln",
-                "Raumschiff.PointX(\"fire\")",
-                "Raumschiff.PointY(\"fire\")",
+                "Waschmaschine.PointX(\"fire\")",
+                "Waschmaschine.PointY(\"fire\")",
                 ""
               ]
             },
@@ -15083,8 +15039,8 @@
               "parameters": [
                 "",
                 "kugeln",
-                "Raumschiff.PointX(\"fire\") - 50",
-                "Raumschiff.PointY(\"fire\")",
+                "Waschmaschine.PointX(\"fire\") - 50",
+                "Waschmaschine.PointY(\"fire\")",
                 ""
               ]
             },
@@ -15101,7 +15057,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "attack",
                 "=",
                 "0"
@@ -15117,7 +15073,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "attack",
                 "=",
                 "3"
@@ -15138,8 +15094,8 @@
               "parameters": [
                 "",
                 "kugeln",
-                "Raumschiff.PointX(\"fire\") + 150",
-                "Raumschiff.PointY(\"fire\")",
+                "Waschmaschine.PointX(\"fire\") + 150",
+                "Waschmaschine.PointY(\"fire\")",
                 ""
               ]
             },
@@ -15150,8 +15106,8 @@
               "parameters": [
                 "",
                 "kugeln",
-                "Raumschiff.PointX(\"fire\") - 150",
-                "Raumschiff.PointY(\"fire\")",
+                "Waschmaschine.PointX(\"fire\") - 150",
+                "Waschmaschine.PointY(\"fire\")",
                 ""
               ]
             },
@@ -15168,7 +15124,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
                 "attack",
                 "=",
                 "0"
@@ -15185,7 +15141,7 @@
               },
               "parameters": [
                 "kugeln",
-                "durchläßige_Plattform",
+                "durchlässige_Plattform",
                 "",
                 "",
                 ""
@@ -15213,35 +15169,7 @@
               },
               "parameters": [
                 "kugeln",
-                "plattform",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "kugeln",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "kugeln",
-                "Boden",
+                "feste_Plattform",
                 "",
                 "",
                 ""
@@ -15269,7 +15197,7 @@
               },
               "parameters": [
                 "Spieler_Kugeln",
-                "plattform",
+                "durchlässige_Plattform",
                 "",
                 "",
                 ""
@@ -15297,7 +15225,7 @@
               },
               "parameters": [
                 "Spieler_Kugeln",
-                "durchläßige_Plattform",
+                "feste_Plattform",
                 "",
                 "",
                 ""
@@ -15325,7 +15253,7 @@
               },
               "parameters": [
                 "Spieler_Kugeln",
-                "Raumschiff",
+                "Waschmaschine",
                 "",
                 "",
                 ""
@@ -15380,7 +15308,17 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Raumschiff",
+                "Waschmaschine",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Winner Screen\"",
                 ""
               ]
             }
@@ -15388,40 +15326,8 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Spieler_Kugeln",
-                "kugeln",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Spieler_Kugeln",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "kugeln",
-                ""
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -22795,6 +22701,17 @@
                 "\"GreenHeroPosition\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "\"Score: \" + GlobalVariableString(Score)"
+              ]
             }
           ]
         },
@@ -23023,7 +22940,7 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "ModVarGlobal"
               },
               "parameters": [
                 "Score",
@@ -23045,7 +22962,7 @@
                     "Score",
                     "Text",
                     "=",
-                    "\"Score: \" + VariableString(Score)"
+                    "\"Score: \" + GlobalVariableString(Score)"
                   ]
                 }
               ]
@@ -23092,7 +23009,7 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "ModVarGlobal"
               },
               "parameters": [
                 "Score",
@@ -23114,7 +23031,7 @@
                     "Score",
                     "Text",
                     "=",
-                    "\"Score: \" + VariableString(Score)"
+                    "\"Score: \" + GlobalVariableString(Score)"
                   ]
                 }
               ]
@@ -23535,7 +23452,7 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "ModVarGlobal"
               },
               "parameters": [
                 "Score",
@@ -23557,7 +23474,7 @@
                     "Score",
                     "Text",
                     "=",
-                    "\"Score: \" + VariableString(Score)"
+                    "\"Score: \" + GlobalVariableString(Score)"
                   ]
                 }
               ]
@@ -23604,7 +23521,7 @@
             },
             {
               "type": {
-                "value": "ModVarScene"
+                "value": "ModVarGlobal"
               },
               "parameters": [
                 "Score",
@@ -23626,7 +23543,7 @@
                     "Score",
                     "Text",
                     "=",
-                    "\"Score: \" + VariableString(Score)"
+                    "\"Score: \" + GlobalVariableString(Score)"
                   ]
                 }
               ]
@@ -23722,7 +23639,7 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarScene"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "Score",
@@ -23875,7 +23792,7 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarScene"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "Score",
@@ -24004,7 +23921,7 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarScene"
+                    "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "Score",
@@ -25773,15 +25690,33 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 279,
           "layer": "",
           "name": "Game_Over2",
           "persistentUuid": "e5e45e6b-9ebc-49e5-b890-83d60c1d88f1",
-          "width": 0,
-          "x": 595,
-          "y": 180,
+          "width": 1537,
+          "x": 195,
+          "y": 213,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 141,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Score",
+          "persistentUuid": "6dc71d88-5c43-4067-8cc1-8bc128ac6a00",
+          "width": 1013,
+          "x": 438,
+          "y": 548,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26022,7 +25957,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Game \nOver",
+            "text": "Game Over",
             "opacity": 255,
             "scale": 12,
             "fontSize": 20,
@@ -26031,6 +25966,47 @@
             "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3 (1).png",
             "align": "center",
             "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Dein Score: 0",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 100,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 15,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Dein Score: 0",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 100,
+            "color": "255;255;255"
           }
         }
       ],
@@ -26048,10 +26024,644 @@
           },
           {
             "objectName": "Game_Over2"
+          },
+          {
+            "objectName": "Score"
           }
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "\"Dein Score: \" + GlobalVariableString(Score)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "GreyButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 1\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Hauptmenü",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Hauptmenü\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Hintergrund",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Winner_32Screen",
+      "name": "Winner Screen",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3645833333333333,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hintergrund",
+          "name": "Game_Over",
+          "persistentUuid": "12903dd3-6d7d-4db6-be27-2233969b8ece",
+          "width": 0,
+          "x": -41,
+          "y": -21,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 106,
+          "layer": "Hintergrund",
+          "name": "GreyButton",
+          "persistentUuid": "ede3e84d-f58d-4966-ad4f-878bf32d2dae",
+          "width": 458,
+          "x": 428,
+          "y": 798,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 106,
+          "layer": "",
+          "name": "Hauptmenü",
+          "persistentUuid": "13158d2d-69ad-4e4b-b04d-5baefb8b344d",
+          "width": 460,
+          "x": 1002,
+          "y": 796,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 378,
+          "layer": "",
+          "name": "Glückwunsch",
+          "persistentUuid": "e5e45e6b-9ebc-49e5-b890-83d60c1d88f1",
+          "width": 1753,
+          "x": 100,
+          "y": 150,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 175,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Score",
+          "persistentUuid": "375fc658-7dda-496a-a539-bdbcf746b96b",
+          "width": 1025,
+          "x": 434,
+          "y": 551,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Game_Over",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "asteroid-moon-landscape3.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2000,
+                            "y": 0
+                          },
+                          {
+                            "x": 2000,
+                            "y": 1111
+                          },
+                          {
+                            "x": 0,
+                            "y": 1111
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
+          "name": "GreyButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 10,
+            "BottomPadding": 32,
+            "TopPadding": 16,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button_Hovered.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Idle": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button_Idle.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Wiederholen",
+              "font": "b81b0bcafdd4279f3bf8d4d3865f51b9961292dad8b5ccbe88807c8acfb6b11d_Poppins-Medium.ttf",
+              "textAlignment": "center",
+              "characterSize": 60,
+              "color": {
+                "b": 79,
+                "g": 72,
+                "r": 72
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Wiederholen",
+                "font": "b81b0bcafdd4279f3bf8d4d3865f51b9961292dad8b5ccbe88807c8acfb6b11d_Poppins-Medium.ttf",
+                "textAlignment": "center",
+                "characterSize": 60,
+                "color": "72;72;79"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button_Pressed.png",
+              "tiled": true,
+              "topMargin": 32,
+              "width": 256
+            }
+          }
+        },
+        {
+          "assetStoreId": "bfab3a269992cf43081e2cb8053c28aaef11f2f9e0d0cbdc00207ea271f69c2c",
+          "name": "Hauptmenü",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 10,
+            "BottomPadding": 32,
+            "TopPadding": 16,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button_Hovered.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Idle": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button_Idle.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Hauptmenü",
+              "font": "b81b0bcafdd4279f3bf8d4d3865f51b9961292dad8b5ccbe88807c8acfb6b11d_Poppins-Medium.ttf",
+              "textAlignment": "center",
+              "characterSize": 60,
+              "color": {
+                "b": 79,
+                "g": 72,
+                "r": 72
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Hauptmenü",
+                "font": "b81b0bcafdd4279f3bf8d4d3865f51b9961292dad8b5ccbe88807c8acfb6b11d_Poppins-Medium.ttf",
+                "textAlignment": "center",
+                "characterSize": 60,
+                "color": "72;72;79"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button_Pressed.png",
+              "tiled": true,
+              "topMargin": 32,
+              "width": 256
+            }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Glückwunsch",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Gratulation \nDu hast gewonnen",
+            "opacity": 255,
+            "scale": 8,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "drive-download-20240411T143952Z-001\\8BitOperatorPlus8Regular_Edited.fnt",
+            "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3 (1).png",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Dein Score: 0",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 100,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 15,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Dein Score: 0",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 100,
+            "color": "255;255;255"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Game_Over"
+          },
+          {
+            "objectName": "GreyButton"
+          },
+          {
+            "objectName": "Hauptmenü"
+          },
+          {
+            "objectName": "Glückwunsch"
+          },
+          {
+            "objectName": "Score"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "\"Dein Score: \" + GlobalVariableString(Score)"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
