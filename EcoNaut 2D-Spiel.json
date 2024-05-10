@@ -2298,6 +2298,15 @@
         "name": "NewSprite6",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SLoch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SLoch.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7933,10 +7942,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -9082,8 +9091,8 @@
           "name": "Plattform2",
           "persistentUuid": "5ef74014-dd8c-4108-83bb-6ff3d680efc5",
           "width": 363,
-          "x": 729,
-          "y": 581,
+          "x": 757,
+          "y": 584,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -9157,7 +9166,7 @@
           "depth": 1,
           "height": 292,
           "layer": "",
-          "name": "Waschmaschine",
+          "name": "Raumschiff",
           "persistentUuid": "db7fa590-52e7-4a93-ac8c-8563542cbed4",
           "width": 468,
           "x": 880,
@@ -13710,7 +13719,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Waschmaschine",
+          "name": "Raumschiff",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -14319,6 +14328,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "waschmaschine",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Design ohne Titel-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 1
+                          },
+                          {
+                            "x": 51,
+                            "y": 1
+                          },
+                          {
+                            "x": 51,
+                            "y": 58
+                          },
+                          {
+                            "x": 8,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -14331,7 +14400,10 @@
             "objectName": "kugeln"
           },
           {
-            "objectName": "Waschmaschine"
+            "objectName": "Raumschiff"
+          },
+          {
+            "objectName": "waschmaschine"
           },
           {
             "objectName": "rechts"
@@ -14690,6 +14762,65 @@
           "conditions": [
             {
               "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "waschmaschine",
+                "GreenHero",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "GreenHero",
+                "Health",
+                "1",
+                "no",
+                "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\dead-8bit-41400.mp3",
+                "",
+                "GlobalVariable(Einstellungen.Musik)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "waschmaschine",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "Health::Health::Health"
               },
               "parameters": [
@@ -14795,13 +14926,30 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "waschmaschine",
+                "GreenHero",
+                "400",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
                 "value": "VarObjet"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "left_right",
                 "=",
                 "0"
@@ -14814,7 +14962,7 @@
                 "value": "AddForceAL"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "0",
                 "200",
                 ""
@@ -14830,7 +14978,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "left_right",
                 "=",
                 "1"
@@ -14843,7 +14991,7 @@
                 "value": "AddForceAL"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "180",
                 "200",
                 ""
@@ -14859,7 +15007,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "rechts",
                 "",
                 "",
@@ -14873,7 +15021,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "left_right",
                 "=",
                 "0"
@@ -14889,7 +15037,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "links",
                 "",
                 "",
@@ -14903,7 +15051,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "left_right",
                 "=",
                 "1"
@@ -14919,7 +15067,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "attack",
                 "=",
                 "0"
@@ -14946,7 +15094,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "attack",
                 "=",
                 "RandomInRange(1, 3)"
@@ -14962,7 +15110,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "attack",
                 "=",
                 "1"
@@ -14983,8 +15131,8 @@
               "parameters": [
                 "",
                 "kugeln",
-                "Waschmaschine.PointX(\"fire\")",
-                "Waschmaschine.PointY(\"fire\")",
+                "Raumschiff.PointX(\"fire\")",
+                "Raumschiff.PointY(\"fire\")",
                 ""
               ]
             },
@@ -15001,7 +15149,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "attack",
                 "=",
                 "0"
@@ -15017,7 +15165,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "attack",
                 "=",
                 "2"
@@ -15038,8 +15186,8 @@
               "parameters": [
                 "",
                 "kugeln",
-                "Waschmaschine.PointX(\"fire\") + 50",
-                "Waschmaschine.PointY(\"fire\")",
+                "Raumschiff.PointX(\"fire\") + 50",
+                "Raumschiff.PointY(\"fire\")",
                 ""
               ]
             },
@@ -15050,8 +15198,8 @@
               "parameters": [
                 "",
                 "kugeln",
-                "Waschmaschine.PointX(\"fire\")",
-                "Waschmaschine.PointY(\"fire\")",
+                "Raumschiff.PointX(\"fire\")",
+                "Raumschiff.PointY(\"fire\")",
                 ""
               ]
             },
@@ -15062,8 +15210,8 @@
               "parameters": [
                 "",
                 "kugeln",
-                "Waschmaschine.PointX(\"fire\") - 50",
-                "Waschmaschine.PointY(\"fire\")",
+                "Raumschiff.PointX(\"fire\") - 50",
+                "Raumschiff.PointY(\"fire\")",
                 ""
               ]
             },
@@ -15080,7 +15228,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "attack",
                 "=",
                 "0"
@@ -15096,7 +15244,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "attack",
                 "=",
                 "3"
@@ -15117,8 +15265,8 @@
               "parameters": [
                 "",
                 "kugeln",
-                "Waschmaschine.PointX(\"fire\") + 150",
-                "Waschmaschine.PointY(\"fire\")",
+                "Raumschiff.PointX(\"fire\") + 150",
+                "Raumschiff.PointY(\"fire\")",
                 ""
               ]
             },
@@ -15129,8 +15277,8 @@
               "parameters": [
                 "",
                 "kugeln",
-                "Waschmaschine.PointX(\"fire\") - 150",
-                "Waschmaschine.PointY(\"fire\")",
+                "Raumschiff.PointX(\"fire\") - 150",
+                "Raumschiff.PointY(\"fire\")",
                 ""
               ]
             },
@@ -15147,7 +15295,7 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 "attack",
                 "=",
                 "0"
@@ -15160,6 +15308,214 @@
           "conditions": [
             {
               "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Raumschiff",
+                "attack",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Raumschiff",
+                "attack",
+                "=",
+                "RandomInRange(4, 6)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Raumschiff",
+                "attack",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "waschmaschine",
+                "Raumschiff.PointX(\"fire\")",
+                "Raumschiff.PointY(\"fire\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Raumschiff",
+                "attack",
+                "=",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Raumschiff",
+                "attack",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "waschmaschine",
+                "Raumschiff.PointX(\"fire\") + 50",
+                "Raumschiff.PointY(\"fire\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Raumschiff",
+                "attack",
+                "=",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Raumschiff",
+                "attack",
+                "=",
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "waschmaschine",
+                "Raumschiff.PointX(\"fire\") + 150",
+                "Raumschiff.PointY(\"fire\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Raumschiff",
+                "attack",
+                "=",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -15318,6 +15674,90 @@
               },
               "parameters": [
                 "Spieler_Kugeln",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "waschmaschine",
+                "durchläßige_Plattform",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "waschmaschine",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "waschmaschine",
+                "Boden",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "waschmaschine",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "waschmaschine",
+                "Plattform2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "waschmaschine",
                 ""
               ]
             }
@@ -15369,7 +15809,7 @@
               },
               "parameters": [
                 "Spieler_Kugeln",
-                "Waschmaschine",
+                "Raumschiff",
                 "",
                 "",
                 ""
@@ -15424,8 +15864,18 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Waschmaschine",
+                "Raumschiff",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "50"
               ]
             },
             {
@@ -15435,6 +15885,44 @@
               "parameters": [
                 "",
                 "\"Winner Screen\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "=",
+                "25",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Raumschiff",
+                "attack",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "kugeln",
                 ""
               ]
             }
@@ -15565,7 +16053,7 @@
           "isLocked": false,
           "name": "Layer",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
