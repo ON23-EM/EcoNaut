@@ -9079,27 +9079,12 @@
           "depth": 1,
           "height": 182,
           "layer": "",
-          "name": "NewSprite3",
+          "name": "Plattform2",
           "persistentUuid": "5ef74014-dd8c-4108-83bb-6ff3d680efc5",
           "width": 363,
           "x": 729,
           "y": 581,
           "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "NewSprite3",
-          "persistentUuid": "7d1acbf8-8e37-4201-906e-30cd77380570",
-          "width": 0,
-          "x": 1705,
-          "y": 621,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9282,11 +9267,11 @@
           "depth": 1,
           "height": 384,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Boden",
           "persistentUuid": "f1f12b1d-eda7-4394-8751-88428f93c392",
           "width": 767,
-          "x": -19,
-          "y": 869,
+          "x": -22,
+          "y": 866,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -9298,7 +9283,7 @@
           "depth": 1,
           "height": 384,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Boden",
           "persistentUuid": "ead94020-8453-4207-ac28-035d1f15c21d",
           "width": 767,
           "x": 673,
@@ -9314,7 +9299,7 @@
           "depth": 1,
           "height": 384,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Boden",
           "persistentUuid": "1bda7cf4-be91-49de-9e53-ae17e32c55ca",
           "width": 767,
           "x": 1353,
@@ -9330,7 +9315,7 @@
           "depth": 1,
           "height": 128,
           "layer": "",
-          "name": "NewSprite2",
+          "name": "durchläßige_Plattform",
           "persistentUuid": "abdf87ce-9fc8-4947-a76a-4e3970e062e4",
           "width": 340,
           "x": 281,
@@ -13664,74 +13649,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "durchlässige_Plattform",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "platformType": "Jumpthru",
-              "canBeGrabbed": true,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Platform 1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 270,
-                            "y": 0
-                          },
-                          {
-                            "x": 270,
-                            "y": 99
-                          },
-                          {
-                            "x": 0,
-                            "y": 99
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "kugeln",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -14202,7 +14119,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "Boden",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14270,7 +14187,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite2",
+          "name": "durchläßige_Plattform",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14338,7 +14255,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite3",
+          "name": "Plattform2",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -14438,10 +14355,7 @@
             "objectName": "feste_Plattform"
           },
           {
-            "objectName": "durchlässige_Plattform"
-          },
-          {
-            "objectName": "NewSprite2"
+            "objectName": "durchläßige_Plattform"
           },
           {
             "objectName": "Leiter"
@@ -14453,10 +14367,10 @@
             "objectName": "barriere"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "Boden"
           },
           {
-            "objectName": "NewSprite3"
+            "objectName": "Plattform2"
           }
         ]
       },
@@ -14868,12 +14782,12 @@
           "actions": [
             {
               "type": {
-                "value": "AddForceAL"
+                "value": "AddForceVers"
               },
               "parameters": [
                 "kugeln",
-                "90",
-                "300",
+                "GreenHero",
+                "200",
                 ""
               ]
             }
@@ -15250,7 +15164,7 @@
               },
               "parameters": [
                 "kugeln",
-                "durchlässige_Plattform",
+                "durchläßige_Plattform",
                 "",
                 "",
                 ""
@@ -15278,7 +15192,35 @@
               },
               "parameters": [
                 "kugeln",
-                "feste_Plattform",
+                "Boden",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "kugeln",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "kugeln",
+                "Plattform2",
                 "",
                 "",
                 ""
@@ -15306,7 +15248,7 @@
               },
               "parameters": [
                 "Spieler_Kugeln",
-                "durchlässige_Plattform",
+                "durchläßige_Plattform",
                 "",
                 "",
                 ""
@@ -15334,7 +15276,7 @@
               },
               "parameters": [
                 "Spieler_Kugeln",
-                "feste_Plattform",
+                "Boden",
                 "",
                 "",
                 ""
@@ -15348,6 +15290,71 @@
               },
               "parameters": [
                 "Spieler_Kugeln",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Spieler_Kugeln",
+                "Plattform2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Spieler_Kugeln",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Spieler_Kugeln",
+                "kugeln",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Spieler_Kugeln",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "kugeln",
                 ""
               ]
             }
@@ -15432,11 +15439,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
