@@ -2375,7 +2375,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2550455473354379,
+        "zoomFactor": 0.33253870912508265,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2583,22 +2583,6 @@
           "initialVariables": []
         },
         {
-          "angle": 46,
-          "customSize": true,
-          "depth": 2,
-          "height": 102,
-          "layer": "",
-          "name": "Weltraumschrott",
-          "persistentUuid": "78608fc3-28eb-44fb-9ef0-a3d3a59f7728",
-          "width": 102,
-          "x": 2055,
-          "y": 459,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 0,
           "customSize": true,
           "depth": 1,
@@ -2688,6 +2672,23 @@
           "x": 27,
           "y": -191,
           "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 119,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Weltraumschrott2",
+          "persistentUuid": "322a4af2-bead-4c3a-a993-05281f8c0551",
+          "width": 120,
+          "x": 2055,
+          "y": 442,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8000,6 +8001,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Weltraumschrott2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Design ohne Titel (11).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 60,
+                            "y": 20
+                          },
+                          {
+                            "x": 60,
+                            "y": 42
+                          },
+                          {
+                            "x": 0,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8040,6 +8101,9 @@
           },
           {
             "objectName": "Weltraumschrott"
+          },
+          {
+            "objectName": "Weltraumschrott2"
           },
           {
             "objectName": "Score"
@@ -16141,7 +16205,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.11894533708001442,
+        "zoomFactor": 0.21607397323876049,
         "windowMask": false
       },
       "objectsGroups": [
@@ -26313,8 +26377,8 @@
           "name": "Score",
           "persistentUuid": "6dc71d88-5c43-4067-8cc1-8bc128ac6a00",
           "width": 1013,
-          "x": 438,
-          "y": 548,
+          "x": 448,
+          "y": 523,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -26569,7 +26633,7 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "Score",
           "smoothed": true,
@@ -26588,7 +26652,7 @@
             "r": 255
           },
           "content": {
-            "bold": false,
+            "bold": true,
             "isOutlineEnabled": true,
             "isShadowEnabled": false,
             "italic": false,
@@ -26912,14 +26976,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 175,
+          "height": 149,
           "keepRatio": true,
           "layer": "",
           "name": "Score",
           "persistentUuid": "375fc658-7dda-496a-a539-bdbcf746b96b",
-          "width": 1025,
-          "x": 434,
-          "y": 551,
+          "width": 734,
+          "x": 593,
+          "y": 558,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
