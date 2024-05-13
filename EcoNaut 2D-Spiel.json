@@ -2383,6 +2383,15 @@
         "name": "Flat Bar Red Fill Bar.png2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "vecteezy_purple-alien-space-planet-game-cartoon-background_23869659 [Konvertiert].png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vecteezy_purple-alien-space-planet-game-cartoon-background_23869659 [Konvertiert].png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -9257,7 +9266,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.49508400737490094,
+        "zoomFactor": 0.41943397827591633,
         "windowMask": false
       },
       "objectsGroups": [
@@ -9346,9 +9355,9 @@
           "layer": "Hintergrund",
           "name": "NewSprite4",
           "persistentUuid": "994e1b52-e4c0-48fa-9d07-d6fd51848037",
-          "width": 2280,
-          "x": -151,
-          "y": -8,
+          "width": 3023,
+          "x": -283,
+          "y": -11,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -13591,7 +13600,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Firefly Space im Welltall für ein 2d Spiel dunkel gräulich und realistisch gestaltet minimalistik, k(1).jpg",
+                      "image": "vecteezy_purple-alien-space-planet-game-cartoon-background_23869659 [Konvertiert].png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13611,16 +13620,16 @@
                             "y": 0
                           },
                           {
-                            "x": 2688,
+                            "x": 5600,
                             "y": 0
                           },
                           {
-                            "x": 2688,
-                            "y": 1536
+                            "x": 5600,
+                            "y": 2000
                           },
                           {
                             "x": 0,
-                            "y": 1536
+                            "y": 2000
                           }
                         ]
                       ]
@@ -16377,7 +16386,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.21607397323876049,
+        "zoomFactor": 0.19561100536769827,
         "windowMask": false
       },
       "objectsGroups": [
