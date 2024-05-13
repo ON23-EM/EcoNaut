@@ -2374,6 +2374,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Lose/c6ac114d3908e9bb8c287c496292cdb0fef57fb5864913c25338525c3e0f9a07_Lose 2.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar Red Fill Bar.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Flat Bar Red Fill Bar.png2.png\"}",
+        "name": "Flat Bar Red Fill Bar.png2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -9248,7 +9257,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.392516117548832,
+        "zoomFactor": 0.49508400737490094,
         "windowMask": false
       },
       "objectsGroups": [
@@ -14204,7 +14213,7 @@
               "height": 24,
               "leftMargin": 0,
               "rightMargin": 0,
-              "texture": "Flat Bar Red Fill Bar.png",
+              "texture": "Flat Bar Red Fill Bar.png2",
               "tiled": true,
               "topMargin": 0,
               "width": 24
@@ -14214,7 +14223,7 @@
               "height": 24,
               "leftMargin": 0,
               "rightMargin": 0,
-              "texture": "212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png2",
+              "texture": "Flat Bar Red Fill Bar.png2",
               "tiled": true,
               "topMargin": 0,
               "width": 24
@@ -14229,9 +14238,9 @@
               "textAlignment": "center",
               "characterSize": 25,
               "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
+                "b": 74,
+                "g": 74,
+                "r": 74
               },
               "content": {
                 "bold": false,
@@ -14251,7 +14260,7 @@
                 "font": "",
                 "textAlignment": "center",
                 "characterSize": 25,
-                "color": "255;255;255"
+                "color": "74;74;74"
               }
             }
           }
@@ -24546,7 +24555,7 @@
                   },
                   "parameters": [
                     "",
-                    "assets\\dead-8bit-41400.mp3",
+                    "c6ac114d3908e9bb8c287c496292cdb0fef57fb5864913c25338525c3e0f9a07_Lose 2.aac",
                     "",
                     "GlobalVariable(Einstellungen.Musik)",
                     ""
@@ -24675,7 +24684,7 @@
                   },
                   "parameters": [
                     "",
-                    "assets\\dead-8bit-41400.mp3",
+                    "c6ac114d3908e9bb8c287c496292cdb0fef57fb5864913c25338525c3e0f9a07_Lose 2.aac",
                     "",
                     "GlobalVariable(Einstellungen.Musik)",
                     ""
@@ -24804,7 +24813,7 @@
                   },
                   "parameters": [
                     "",
-                    "assets\\dead-8bit-41400.mp3",
+                    "c6ac114d3908e9bb8c287c496292cdb0fef57fb5864913c25338525c3e0f9a07_Lose 2.aac",
                     "",
                     "GlobalVariable(Einstellungen.Musik)",
                     ""
