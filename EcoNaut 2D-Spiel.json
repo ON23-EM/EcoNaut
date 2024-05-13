@@ -2307,6 +2307,73 @@
         "name": "SLoch.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Backbeat.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "a283bed494dcff75f74269cc317a90207709ce47658adc16d833b8c2d7252389_Backbeat.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Electronic/a283bed494dcff75f74269cc317a90207709ce47658adc16d833b8c2d7252389_Backbeat.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Lose effect.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "deb2c450b082e5dfb4e52f3c4d7fc0ba0920f419f5839623c757ca284d2735f3_Lose effect.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/deb2c450b082e5dfb4e52f3c4d7fc0ba0920f419f5839623c757ca284d2735f3_Lose effect.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Mysterious Lights.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "b095ba616bfab74fd4e83f57b26f494b45df6e7922432d3dd1d6acad877dc38e_Mysterious Lights.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Horror/b095ba616bfab74fd4e83f57b26f494b45df6e7922432d3dd1d6acad877dc38e_Mysterious Lights.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Rubik-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "edbc88d46437d6403d3670eb084bcbdf08872c9f54a34ed1536c1013c412bd3b_Rubik-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/edbc88d46437d6403d3670eb084bcbdf08872c9f54a34ed1536c1013c412bd3b_Rubik-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Lose 2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "c6ac114d3908e9bb8c287c496292cdb0fef57fb5864913c25338525c3e0f9a07_Lose 2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Lose/c6ac114d3908e9bb8c287c496292cdb0fef57fb5864913c25338525c3e0f9a07_Lose 2.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -8686,7 +8753,7 @@
               },
               "parameters": [
                 "",
-                "assets\\dead-8bit-41400.mp3",
+                "c6ac114d3908e9bb8c287c496292cdb0fef57fb5864913c25338525c3e0f9a07_Lose 2.aac",
                 "",
                 "GlobalVariable(Einstellungen.Musik)",
                 ""
@@ -8760,7 +8827,7 @@
               },
               "parameters": [
                 "",
-                "assets\\dead-8bit-41400.mp3",
+                "c6ac114d3908e9bb8c287c496292cdb0fef57fb5864913c25338525c3e0f9a07_Lose 2.aac",
                 "",
                 "GlobalVariable(Einstellungen.Musik)",
                 ""
@@ -8878,10 +8945,79 @@
               },
               "parameters": [
                 "",
-                "fa5dca659079f7d3bbf00d0a7dc1acde7e080c669034f4d2e64c309b22835220_Infinite Wonder.aac",
+                "a283bed494dcff75f74269cc317a90207709ce47658adc16d833b8c2d7252389_Backbeat.aac",
                 "yes",
                 "GlobalVariable(Einstellungen.Musik)",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GreenHero",
+                "Weltraumschrott2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Weltraumschrott2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "c52f1dacc263a2a6dc94e712a2a148f909b73372fa8e0622cb237fdc6a72fd6c_Coins 8.aac",
+                "",
+                "GlobalVariable(Einstellungen.Ton)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Score",
+                    "Text",
+                    "=",
+                    "\"Score: \" + GlobalVariableString(Score)"
+                  ]
+                }
               ]
             }
           ]
@@ -9112,7 +9248,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2636457673770863,
+        "zoomFactor": 0.392516117548832,
         "windowMask": false
       },
       "objectsGroups": [
@@ -14804,7 +14940,7 @@
               },
               "parameters": [
                 "",
-                "assets\\dead-8bit-41400.mp3",
+                "deb2c450b082e5dfb4e52f3c4d7fc0ba0920f419f5839623c757ca284d2735f3_Lose effect.aac",
                 "",
                 "GlobalVariable(Einstellungen.Musik)",
                 ""
@@ -15987,6 +16123,33 @@
               },
               "parameters": [
                 "kugeln",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "b095ba616bfab74fd4e83f57b26f494b45df6e7922432d3dd1d6acad877dc38e_Mysterious Lights.aac",
+                "",
+                "GlobalVariable(Einstellungen.Musik)",
                 ""
               ]
             }
@@ -23346,7 +23509,7 @@
               },
               "parameters": [
                 "",
-                "fa5dca659079f7d3bbf00d0a7dc1acde7e080c669034f4d2e64c309b22835220_Infinite Wonder.aac",
+                "a283bed494dcff75f74269cc317a90207709ce47658adc16d833b8c2d7252389_Backbeat.aac",
                 "yes",
                 "GlobalVariable(Einstellungen.Musik)",
                 ""
@@ -23902,7 +24065,7 @@
               },
               "parameters": [
                 "",
-                "assets\\dead-8bit-41400.mp3",
+                "c6ac114d3908e9bb8c287c496292cdb0fef57fb5864913c25338525c3e0f9a07_Lose 2.aac",
                 "",
                 "GlobalVariable(Einstellungen.Musik)",
                 ""
@@ -23976,7 +24139,7 @@
               },
               "parameters": [
                 "",
-                "assets\\dead-8bit-41400.mp3",
+                "c6ac114d3908e9bb8c287c496292cdb0fef57fb5864913c25338525c3e0f9a07_Lose 2.aac",
                 "",
                 "GlobalVariable(Einstellungen.Musik)",
                 ""
