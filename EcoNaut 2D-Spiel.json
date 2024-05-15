@@ -4242,7 +4242,7 @@
           "depth": 2,
           "height": 201,
           "layer": "",
-          "name": "GreenHero",
+          "name": "EcoNaut",
           "persistentUuid": "5c372396-6806-4462-a198-f7cd084cb92c",
           "width": 201,
           "x": 123,
@@ -4506,13 +4506,30 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 304,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Leiter",
+          "persistentUuid": "43cd4d4d-d06f-4b46-a9a2-ea6daeaaf8c0",
+          "width": 68,
+          "x": 847,
+          "y": 524,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "f2a545fe86b8cc1509591e310c5b6e497482b05fc54d5e770a57d57c167d45b0",
-          "name": "GreenHero",
+          "name": "EcoNaut",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -7955,7 +7972,7 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "NewTiledSprite",
+          "name": "Leiter",
           "texture": "e3006f0b8d3bf869f63406aa49df6648c3da1723625dd4895577638ed4cad787_Ladder.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -8744,7 +8761,7 @@
             "objectName": "Background"
           },
           {
-            "objectName": "GreenHero"
+            "objectName": "EcoNaut"
           },
           {
             "objectName": "Plattform1"
@@ -8753,7 +8770,7 @@
             "objectName": "Plattform2"
           },
           {
-            "objectName": "NewTiledSprite"
+            "objectName": "Leiter"
           },
           {
             "objectName": "Plattform3"
@@ -8829,7 +8846,7 @@
                 "value": "Health::Health::SetHealth"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Health",
                 "3",
                 ""
@@ -8854,7 +8871,7 @@
                 "value": "PlatformBehavior::IsOnFloor"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "PlatformerObject"
               ]
             },
@@ -8871,7 +8888,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Flippable",
                 "yes"
               ]
@@ -8895,7 +8912,7 @@
                 "value": "PlatformBehavior::IsOnFloor"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "PlatformerObject"
               ]
             }
@@ -8906,7 +8923,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Flippable",
                 "no"
               ]
@@ -8921,7 +8938,7 @@
                 "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "PlatformerObject"
               ]
             }
@@ -8936,7 +8953,7 @@
                     "value": "PlatformBehavior::IsOnFloor"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 }
@@ -8947,7 +8964,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "Animation",
                     "=",
                     "1"
@@ -8972,7 +8989,7 @@
                     "value": "PlatformBehavior::IsJumping"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 },
@@ -8989,7 +9006,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "Animation",
                     "=",
                     "2"
@@ -9018,7 +9035,7 @@
                     "value": "PlatformBehavior::IsOnLadder"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 },
@@ -9035,7 +9052,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "Animation",
                     "=",
                     "4"
@@ -9058,7 +9075,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Tor",
                 "",
                 "",
@@ -9103,7 +9120,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Weltraumschrott",
                 "",
                 "",
@@ -9175,7 +9192,7 @@
               "parameters": [
                 "LebensAnzeige",
                 "=",
-                "GreenHero.Health::Health()",
+                "EcoNaut.Health::Health()",
                 ""
               ]
             }
@@ -9200,9 +9217,9 @@
               },
               "parameters": [
                 "",
-                "GreenHero",
-                "GreenHero.X()",
-                "GreenHero.Y()",
+                "EcoNaut",
+                "EcoNaut.X()",
+                "EcoNaut.Y()",
                 "\"GreenHeroPosition\"",
                 ""
               ]
@@ -9217,7 +9234,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Checkpoint",
                 "",
                 "",
@@ -9278,7 +9295,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Checkpoint2",
                 "",
                 "",
@@ -9350,7 +9367,7 @@
                 "value": "PosY"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 ">",
                 "Background.BoundingBoxBottom()"
               ]
@@ -9379,7 +9396,7 @@
                 "value": "Health::Health::Hit"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Health",
                 "1",
                 "no",
@@ -9406,7 +9423,7 @@
               "parameters": [
                 "",
                 "Checkpoint",
-                "GreenHero",
+                "EcoNaut",
                 "\"GreenHeroPosition\"",
                 "yes",
                 ""
@@ -9423,7 +9440,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Checkpoint",
                 "",
                 "",
@@ -9435,7 +9452,7 @@
                 "value": "PosY"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 ">",
                 "Background.BoundingBoxBottom()"
               ]
@@ -9455,7 +9472,7 @@
               "parameters": [
                 "",
                 "Checkpoint2",
-                "GreenHero",
+                "EcoNaut",
                 "\"GreenHeroPosition1\"",
                 "yes",
                 ""
@@ -9478,7 +9495,7 @@
                 "value": "Health::Health::Hit"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Health",
                 "1",
                 "no",
@@ -9496,7 +9513,7 @@
                 "value": "PosY"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 ">",
                 "Background.BoundingBoxBottom()"
               ]
@@ -9507,7 +9524,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Checkpoint",
                 "",
                 "",
@@ -9528,8 +9545,8 @@
               },
               "parameters": [
                 "",
-                "GreenHero",
-                "GreenHero",
+                "EcoNaut",
+                "EcoNaut",
                 "\"GreenHeroPosition\"",
                 "yes",
                 ""
@@ -9545,7 +9562,7 @@
                 "value": "Health::Health::Health"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Health",
                 "=",
                 "0",
@@ -9601,7 +9618,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Weltraumschrott2",
                 "",
                 "",
@@ -9925,7 +9942,7 @@
           "depth": 1,
           "height": 147,
           "layer": "",
-          "name": "GreenHero",
+          "name": "EcoNaut",
           "persistentUuid": "5c372396-6806-4462-a198-f7cd084cb92c",
           "width": 147,
           "x": 128,
@@ -10144,12 +10161,12 @@
           "depth": 1,
           "height": 304,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Leiter",
           "persistentUuid": "f9a2e2cb-d9b7-4780-95ad-0c9aa985b0fc",
           "width": 70,
           "x": 707,
           "y": 436,
-          "zOrder": 38,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10286,12 +10303,12 @@
           "depth": 1,
           "height": 237,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Leiter",
           "persistentUuid": "53e871d5-352c-49b2-8d1c-f6165e103f21",
           "width": 66,
           "x": 1777,
           "y": 368,
-          "zOrder": 49,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10428,12 +10445,12 @@
           "depth": 1,
           "height": 168,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Leiter",
           "persistentUuid": "2f7e9cf9-1186-4590-87ce-350e41ae2b68",
           "width": 69,
           "x": 3101,
           "y": 267,
-          "zOrder": 49,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10680,12 +10697,12 @@
           "depth": 1,
           "height": 396,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Leiter",
           "persistentUuid": "70fe9260-6066-4937-8b61-5b6e240cef6b",
           "width": 69,
           "x": 4344,
           "y": 553,
-          "zOrder": 49,
+          "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10742,12 +10759,12 @@
           "depth": 1,
           "height": 204,
           "layer": "",
-          "name": "NewTiledSprite",
+          "name": "Leiter",
           "persistentUuid": "711fa4f9-2483-45e2-9dd0-2df72682a088",
           "width": 69,
           "x": 4437,
           "y": 279,
-          "zOrder": 49,
+          "zOrder": -4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10914,7 +10931,7 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "f2a545fe86b8cc1509591e310c5b6e497482b05fc54d5e770a57d57c167d45b0",
-          "name": "GreenHero",
+          "name": "EcoNaut",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -13853,7 +13870,7 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "NewTiledSprite",
+          "name": "Leiter",
           "texture": "e3006f0b8d3bf869f63406aa49df6648c3da1723625dd4895577638ed4cad787_Ladder.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -15501,7 +15518,7 @@
             "objectName": "Waschmaschine_an2"
           },
           {
-            "objectName": "GreenHero"
+            "objectName": "EcoNaut"
           },
           {
             "objectName": "Plattform1"
@@ -15525,7 +15542,7 @@
             "objectName": "Plattform7_hoch_runter"
           },
           {
-            "objectName": "NewTiledSprite"
+            "objectName": "Leiter"
           },
           {
             "objectName": "Plattform3"
@@ -15613,7 +15630,7 @@
                 "value": "Health::Health::SetHealth"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Health",
                 "3",
                 ""
@@ -15637,9 +15654,9 @@
               },
               "parameters": [
                 "",
-                "GreenHero",
-                "GreenHero.X()",
-                "GreenHero.Y()",
+                "EcoNaut",
+                "EcoNaut.X()",
+                "EcoNaut.Y()",
                 "\"GreenHeroPosition\"",
                 ""
               ]
@@ -15674,7 +15691,7 @@
                 "value": "PlatformBehavior::IsOnFloor"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "PlatformerObject"
               ]
             },
@@ -15691,7 +15708,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Flippable",
                 "yes"
               ]
@@ -15715,7 +15732,7 @@
                 "value": "PlatformBehavior::IsOnFloor"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "PlatformerObject"
               ]
             }
@@ -15726,7 +15743,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Flippable",
                 "no"
               ]
@@ -15741,7 +15758,7 @@
                 "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "PlatformerObject"
               ]
             }
@@ -15756,7 +15773,7 @@
                     "value": "PlatformBehavior::IsOnFloor"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 }
@@ -15767,7 +15784,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "Animation",
                     "=",
                     "1"
@@ -15792,7 +15809,7 @@
                     "value": "PlatformBehavior::IsJumping"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 },
@@ -15809,7 +15826,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "Animation",
                     "=",
                     "2"
@@ -15838,7 +15855,7 @@
                     "value": "PlatformBehavior::IsOnLadder"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 }
@@ -15849,7 +15866,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "Animation",
                     "=",
                     "4"
@@ -15883,7 +15900,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Weltraumschrott",
                 "",
                 "",
@@ -15952,7 +15969,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Weltraumschrott",
                 "",
                 "",
@@ -16024,7 +16041,7 @@
               "parameters": [
                 "LebensAnzeige",
                 "=",
-                "GreenHero.Health::Health()",
+                "EcoNaut.Health::Health()",
                 ""
               ]
             }
@@ -16038,7 +16055,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Checkpoint",
                 "",
                 "",
@@ -16099,7 +16116,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Checkpoint2",
                 "",
                 "",
@@ -16171,7 +16188,7 @@
                 "value": "PosY"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 ">",
                 "Background.BoundingBoxBottom()"
               ]
@@ -16202,7 +16219,7 @@
               "parameters": [
                 "",
                 "Checkpoint",
-                "GreenHero",
+                "EcoNaut",
                 "\"GreenHeroPosition\"",
                 "yes",
                 ""
@@ -16225,7 +16242,7 @@
                 "value": "Health::Health::Hit"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Health",
                 "1",
                 "no",
@@ -16244,7 +16261,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Checkpoint",
                 "",
                 "",
@@ -16256,7 +16273,7 @@
                 "value": "PosY"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 ">",
                 "Background.BoundingBoxBottom()"
               ]
@@ -16276,7 +16293,7 @@
               "parameters": [
                 "",
                 "Checkpoint2",
-                "GreenHero",
+                "EcoNaut",
                 "\"GreenHeroPosition1\"",
                 "yes",
                 ""
@@ -16299,7 +16316,7 @@
                 "value": "Health::Health::Hit"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Health",
                 "1",
                 "no",
@@ -16317,7 +16334,7 @@
                 "value": "PosY"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 ">",
                 "Background.BoundingBoxBottom()"
               ]
@@ -16328,7 +16345,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Checkpoint",
                 "",
                 "",
@@ -16349,8 +16366,8 @@
               },
               "parameters": [
                 "",
-                "GreenHero",
-                "GreenHero",
+                "EcoNaut",
+                "EcoNaut",
                 "\"GreenHeroPosition\"",
                 "yes",
                 ""
@@ -16366,7 +16383,7 @@
                 "value": "Health::Health::Health"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Health",
                 "=",
                 "0",
@@ -16395,7 +16412,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Weltraumschrott_Müllsack",
                 "",
                 "",
@@ -16464,7 +16481,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Weltraumschrott_Flasche",
                 "",
                 "",
@@ -16533,7 +16550,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Tor_Level_2",
                 "=",
                 "",
@@ -16562,7 +16579,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Gegner_Waschmaschine",
                 "",
                 "",
@@ -16596,7 +16613,7 @@
                     "value": "PlatformBehavior::IsFalling"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 }
@@ -16670,7 +16687,7 @@
                     "value": "PlatformBehavior::IsFalling"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 }
@@ -16681,7 +16698,7 @@
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "Health",
                     "1",
                     "no",
@@ -16708,7 +16725,7 @@
                   "parameters": [
                     "",
                     "Checkpoint2",
-                    "GreenHero",
+                    "EcoNaut",
                     "\"GreenHeroPosition1\"",
                     "yes",
                     ""
@@ -16726,7 +16743,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Waschmaschine_an",
                 "",
                 "",
@@ -16750,7 +16767,7 @@
                     "value": "PlatformBehavior::IsFalling"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 }
@@ -16799,7 +16816,7 @@
                     "value": "PlatformBehavior::IsFalling"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 }
@@ -16810,7 +16827,7 @@
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "Health",
                     "1",
                     "no",
@@ -16837,7 +16854,7 @@
                   "parameters": [
                     "",
                     "Checkpoint2",
-                    "GreenHero",
+                    "EcoNaut",
                     "\"GreenHeroPosition1\"",
                     "yes",
                     ""
@@ -16855,7 +16872,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Waschmaschine_an2",
                 "",
                 "",
@@ -16879,7 +16896,7 @@
                     "value": "PlatformBehavior::IsFalling"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 }
@@ -16928,7 +16945,7 @@
                     "value": "PlatformBehavior::IsFalling"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 }
@@ -16939,7 +16956,7 @@
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "Health",
                     "1",
                     "no",
@@ -16966,7 +16983,7 @@
                   "parameters": [
                     "",
                     "Checkpoint",
-                    "GreenHero",
+                    "EcoNaut",
                     "\"GreenHeroPosition\"",
                     "yes",
                     ""
@@ -17204,7 +17221,7 @@
           "depth": 2,
           "height": 201,
           "layer": "",
-          "name": "GreenHero",
+          "name": "EcoNaut",
           "persistentUuid": "5c372396-6806-4462-a198-f7cd084cb92c",
           "width": 201,
           "x": 835,
@@ -17287,7 +17304,7 @@
           "width": 0,
           "x": 363,
           "y": 763,
-          "zOrder": 24,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17471,7 +17488,7 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "f2a545fe86b8cc1509591e310c5b6e497482b05fc54d5e770a57d57c167d45b0",
-          "name": "GreenHero",
+          "name": "EcoNaut",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -22458,7 +22475,7 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "GreenHero"
+            "objectName": "EcoNaut"
           },
           {
             "objectName": "kugeln"
@@ -22534,7 +22551,7 @@
                 "value": "Health::Health::SetHealth"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Health",
                 "3",
                 ""
@@ -22559,7 +22576,7 @@
                 "value": "PlatformBehavior::IsOnFloor"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "PlatformerObject"
               ]
             },
@@ -22576,7 +22593,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Flippable",
                 "yes"
               ]
@@ -22600,7 +22617,7 @@
                 "value": "PlatformBehavior::IsOnFloor"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "PlatformerObject"
               ]
             }
@@ -22611,7 +22628,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Flippable",
                 "no"
               ]
@@ -22626,7 +22643,7 @@
                 "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "PlatformerObject"
               ]
             }
@@ -22641,7 +22658,7 @@
                     "value": "PlatformBehavior::IsOnFloor"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 }
@@ -22652,7 +22669,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "Animation",
                     "=",
                     "1"
@@ -22677,7 +22694,7 @@
                     "value": "PlatformBehavior::IsJumping"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "PlatformerObject"
                   ]
                 },
@@ -22694,7 +22711,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
-                    "GreenHero",
+                    "EcoNaut",
                     "Animation",
                     "=",
                     "2"
@@ -22728,7 +22745,7 @@
               "parameters": [
                 "LebensAnzeige",
                 "=",
-                "GreenHero.Health::Health()",
+                "EcoNaut.Health::Health()",
                 ""
               ]
             }
@@ -22768,7 +22785,7 @@
               },
               "parameters": [
                 "kugeln",
-                "GreenHero",
+                "EcoNaut",
                 "",
                 "",
                 ""
@@ -22787,7 +22804,7 @@
                 "value": "Health::Health::Hit"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Health",
                 "1",
                 "no",
@@ -22827,7 +22844,7 @@
               },
               "parameters": [
                 "waschmaschine",
-                "GreenHero",
+                "EcoNaut",
                 "",
                 "",
                 ""
@@ -22846,7 +22863,7 @@
                 "value": "Health::Health::Hit"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Health",
                 "1",
                 "no",
@@ -22885,7 +22902,7 @@
                 "value": "Health::Health::Health"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Health",
                 "=",
                 "0",
@@ -22933,8 +22950,8 @@
               "parameters": [
                 "",
                 "Spieler_Kugeln",
-                "GreenHero.CenterX()",
-                "GreenHero.CenterY()",
+                "EcoNaut.CenterX()",
+                "EcoNaut.CenterY()",
                 ""
               ]
             },
@@ -22943,7 +22960,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "GreenHero",
+                "EcoNaut",
                 "Animation",
                 "=",
                 "\"Fire\""
@@ -22978,7 +22995,7 @@
               },
               "parameters": [
                 "kugeln",
-                "GreenHero",
+                "EcoNaut",
                 "200",
                 ""
               ]
@@ -22995,7 +23012,7 @@
               },
               "parameters": [
                 "waschmaschine",
-                "GreenHero",
+                "EcoNaut",
                 "400",
                 ""
               ]
