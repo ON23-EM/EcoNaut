@@ -2725,6 +2725,33 @@
         "name": "cartoon-explosion-png-favpng-DsCTxcHJrt4duXNWy8F5PH2eu.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Charakter/Klettern neu/EcoNautRückseite_mitFarben_linkesBeinoben.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Charakter\\Klettern neu\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Charakter/Klettern neu/EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Charakter\\Klettern neu\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Charakter/EN Logo1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Charakter\\EN Logo1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2839,8 +2866,8 @@
           "name": "Spiel_Name",
           "persistentUuid": "39c543b3-c56c-423f-a52b-b36c4b6b832a",
           "width": 987,
-          "x": 471,
-          "y": 177,
+          "x": 537,
+          "y": 174,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -2855,8 +2882,8 @@
           "name": "Spielen",
           "persistentUuid": "2d217043-95f3-4867-ac95-981b2202fbf1",
           "width": 329,
-          "x": 779,
-          "y": 444,
+          "x": 891,
+          "y": 439,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2871,8 +2898,8 @@
           "name": "Einstellungen",
           "persistentUuid": "dace8f43-11c8-4c6a-aa5a-d923f771521c",
           "width": 864,
-          "x": 520,
-          "y": 628,
+          "x": 611,
+          "y": 614,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2887,8 +2914,8 @@
           "name": "Beenden",
           "persistentUuid": "db6edef0-511c-4eba-bb56-0c79a0b129b4",
           "width": 510,
-          "x": 703,
-          "y": 796,
+          "x": 790,
+          "y": 785,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2905,6 +2932,39 @@
           "x": 1609,
           "y": 62,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 2,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Green_Hero",
+          "persistentUuid": "3523c38a-367b-4deb-bb8f-7cfba7ccf242",
+          "width": 0,
+          "x": 88,
+          "y": 301,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 5,
+          "customSize": true,
+          "depth": 1,
+          "height": 351,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Logo",
+          "persistentUuid": "eca5c13c-d1a3-4305-a4e0-175116515750",
+          "width": 405,
+          "x": 1459,
+          "y": 667,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3152,6 +3212,126 @@
           "absoluteCoordinates": false,
           "clearBetweenFrames": true,
           "antialiasing": "none"
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Green_Hero",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idel",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\EcoNaut von Vorne.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 698
+                          },
+                          {
+                            "x": 0,
+                            "y": 698
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Logo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "EN",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\EN Logo1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 586,
+                            "y": 1
+                          },
+                          {
+                            "x": 586,
+                            "y": 508
+                          },
+                          {
+                            "x": 0,
+                            "y": 508
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3174,6 +3354,12 @@
           },
           {
             "objectName": "Transition"
+          },
+          {
+            "objectName": "Green_Hero"
+          },
+          {
+            "objectName": "Logo"
           }
         ]
       },
@@ -4257,14 +4443,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2,
-          "height": 201,
+          "depth": 1,
+          "height": 129,
           "layer": "",
           "name": "EcoNaut",
           "persistentUuid": "5c372396-6806-4462-a198-f7cd084cb92c",
-          "width": 201,
-          "x": 123,
-          "y": 200,
+          "width": 120,
+          "x": 144,
+          "y": 266,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4589,6 +4775,7 @@
               "PercentDamageReduction": 0
             },
             {
+              "gravity": 950,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
@@ -4596,7 +4783,6 @@
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
-              "gravity": 1000,
               "ignoreDefaultControls": false,
               "jumpSpeed": 650,
               "jumpSustainTime": 0.2,
@@ -7576,7 +7762,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Charakter\\Klettern\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
+                      "image": "Charakter\\Klettern neu\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7632,7 +7818,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Charakter\\Klettern\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
+                      "image": "Charakter\\Klettern neu\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7688,7 +7874,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Charakter\\Klettern\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
+                      "image": "Charakter\\Klettern neu\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7744,7 +7930,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Charakter\\Klettern\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
+                      "image": "Charakter\\Klettern neu\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10840,11 +11026,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 147,
+          "height": 125,
           "layer": "",
           "name": "EcoNaut",
           "persistentUuid": "5c372396-6806-4462-a198-f7cd084cb92c",
-          "width": 147,
+          "width": 125,
           "x": 128,
           "y": 578,
           "zOrder": 1,
@@ -14556,7 +14742,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Charakter\\Klettern\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
+                      "image": "Charakter\\Klettern neu\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14608,7 +14794,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Charakter\\Klettern\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
+                      "image": "Charakter\\Klettern neu\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14660,7 +14846,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Charakter\\Klettern\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
+                      "image": "Charakter\\Klettern neu\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14712,7 +14898,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Charakter\\Klettern\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
+                      "image": "Charakter\\Klettern neu\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18643,19 +18829,23 @@
                     },
                     {
                       "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Score",
+                        "Text",
+                        "=",
+                        "\"Score: \" + GlobalVariableString(Score)"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Delete"
                       },
                       "parameters": [
                         "Gegner_Waschmaschine",
                         ""
                       ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": []
                     }
                   ]
                 }
@@ -18788,6 +18978,25 @@
                     ""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Score",
+                        "Text",
+                        "=",
+                        "\"Score: \" + GlobalVariableString(Score)"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -18915,6 +19124,25 @@
                     "",
                     "GlobalVariable(Einstellungen.Ton)",
                     ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Score",
+                        "Text",
+                        "=",
+                        "\"Score: \" + GlobalVariableString(Score)"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -19201,14 +19429,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2,
-          "height": 201,
+          "depth": 1,
+          "height": 146,
           "layer": "",
           "name": "EcoNaut",
           "persistentUuid": "5c372396-6806-4462-a198-f7cd084cb92c",
-          "width": 201,
-          "x": 831,
-          "y": 759,
+          "width": 146,
+          "x": 886,
+          "y": 814,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -21474,7 +21702,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Charakter\\Klettern\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
+                      "image": "Charakter\\Klettern neu\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21510,7 +21738,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Charakter\\Klettern\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
+                      "image": "Charakter\\Klettern neu\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21546,7 +21774,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Charakter\\Klettern\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
+                      "image": "Charakter\\Klettern neu\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21582,7 +21810,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Charakter\\Klettern\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
+                      "image": "Charakter\\Klettern neu\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
