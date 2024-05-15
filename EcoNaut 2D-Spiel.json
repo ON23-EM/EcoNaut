@@ -4506,23 +4506,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 325,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewTiledSprite",
-          "persistentUuid": "2ad7f4e9-e457-4349-9f20-954c6ac34637",
-          "width": 71,
-          "x": 843,
-          "y": 502,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -9945,8 +9928,8 @@
           "name": "GreenHero",
           "persistentUuid": "5c372396-6806-4462-a198-f7cd084cb92c",
           "width": 147,
-          "x": 123,
-          "y": 559,
+          "x": 128,
+          "y": 447,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -11073,19 +11056,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 1
                           },
                           {
                             "x": 481,
-                            "y": 0
+                            "y": 1
                           },
                           {
                             "x": 481,
-                            "y": 698
+                            "y": 683
                           },
                           {
-                            "x": 0,
-                            "y": 698
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -11100,7 +11083,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.0417,
+                  "timeBetweenFrames": 0.06,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -11117,7 +11100,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
                     },
                     {
                       "hasCustomCollisionMask": true,
@@ -11134,7 +11136,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
                     },
                     {
                       "hasCustomCollisionMask": true,
@@ -11151,7 +11172,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
                     },
                     {
                       "hasCustomCollisionMask": true,
@@ -11168,7 +11208,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
                     },
                     {
                       "hasCustomCollisionMask": true,
@@ -11185,7 +11244,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
                     },
                     {
                       "hasCustomCollisionMask": true,
@@ -11202,7 +11280,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
                     },
                     {
                       "hasCustomCollisionMask": true,
@@ -11219,7 +11316,638 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder rechtes Bein\\6Econaut rechts,rechtes Bein vorne Farbe 6Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder rechtes Bein\\5.Econaut rechts,rechtes Bein vorne Farbe 5.Bild Kopie.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder rechtes Bein\\4.Econaut rechts,rechtes Bein vorne Farbe 4.Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder rechtes Bein\\3..Econaut rechts,rechtes Bein vorne Farbe 3.Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder rechtes Bein\\2.Econaut rechts,rechtes Bein vorne Farbe 2.Bild Kopie.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\stehend\\Econaut rechts_stehend Farbe.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder linkes Bein\\1.Econaut rechts, linkes Bein vorne Farbe Kopie1.Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder linkes Bein\\2.Econaut rechts, linkes Bein vorne Farbe Kopie2.Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder linkes Bein\\3.Econaut rechts, linkes Bein vorne Farbe Kopie3.Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder linkes Bein\\4.Econaut rechts, linkes Bein vorne Farbe Kopie1.Bild Kopie4 Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder linkes Bein\\5.Econaut rechts, linkes Bein vorne Farbe Kopie1.Bild Kopie5. Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder linkes Bein\\6.Econaut rechts, linkes Bein vorne Farbe Kopie6. Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder linkes Bein\\5.Econaut rechts, linkes Bein vorne Farbe Kopie1.Bild Kopie5. Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder linkes Bein\\4.Econaut rechts, linkes Bein vorne Farbe Kopie1.Bild Kopie4 Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder linkes Bein\\3.Econaut rechts, linkes Bein vorne Farbe Kopie3.Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder linkes Bein\\2.Econaut rechts, linkes Bein vorne Farbe Kopie2.Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Charakter\\Bilder linkes Bein\\1.Econaut rechts, linkes Bein vorne Farbe Kopie1.Bild.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 1
+                          },
+                          {
+                            "x": 481,
+                            "y": 683
+                          },
+                          {
+                            "x": 2,
+                            "y": 687
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -11231,11 +11959,11 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.0417,
+                  "timeBetweenFrames": 0.09,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_1.png",
+                      "image": "Charakter\\stehend\\Econaut rechts_stehend Farbe.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11251,27 +11979,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_2.png",
+                      "image": "Charakter\\Springen\\1.Econaut rechts_stehend Farbe Kopie Spingen Kopie1. Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11287,27 +12015,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_3.png",
+                      "image": "Charakter\\Springen\\2.Econaut rechts_stehend Farbe Kopie Spingen Kopie2. Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11323,27 +12051,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_4.png",
+                      "image": "Charakter\\Springen\\3.Econaut rechts_stehend Farbe Kopie Spingen Kopie3. Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11359,27 +12087,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_5.png",
+                      "image": "Charakter\\Springen\\2.Econaut rechts_stehend Farbe Kopie Spingen Kopie2. Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11395,27 +12123,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_6.png",
+                      "image": "Charakter\\Springen\\1.Econaut rechts_stehend Farbe Kopie Spingen Kopie1. Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11431,27 +12159,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_7.png",
+                      "image": "Charakter\\Springen\\4.Econaut rechts_stehend Farbe Kopie Spingen Kopie4. Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11467,27 +12195,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_8.png",
+                      "image": "Charakter\\Springen\\5.Econaut rechts_stehend Farbe Kopie Spingen Kopie5. Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11503,27 +12231,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_9.png",
+                      "image": "Charakter\\Springen\\6.Econaut rechts_stehend Farbe Kopie Spingen Kopie6. Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11539,27 +12267,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_10.png",
+                      "image": "Charakter\\Springen\\7.Econaut rechts_stehend Farbe Kopie Spingen Kopie7. Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11575,27 +12303,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_11.png",
+                      "image": "Charakter\\Springen\\8.Econaut rechts_stehend Farbe Kopie Spingen Kopie8. Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11611,236 +12339,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Jump_17.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -11875,20 +12387,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -11911,20 +12423,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -11947,20 +12459,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -11983,20 +12495,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -12019,20 +12531,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -12055,20 +12567,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -12091,20 +12603,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -12127,20 +12639,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -12163,20 +12675,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -12199,20 +12711,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -12235,20 +12747,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -12271,20 +12783,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -12307,20 +12819,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -12335,11 +12847,11 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.0625,
+                  "timeBetweenFrames": 0.3,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_1.png",
+                      "image": "Charakter\\Klettern\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12355,27 +12867,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_2.png",
+                      "image": "Charakter\\Klettern\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12391,27 +12903,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_3.png",
+                      "image": "Charakter\\Klettern\\EcoNautRückseite_mitFarben_linkesBeinoben.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12427,27 +12939,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_4.png",
+                      "image": "Charakter\\Klettern\\EcoNautRückseite_rechtesBeinoben_Farbe Kopie.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12463,452 +12975,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Climb_16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -12923,11 +13003,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.0417,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_1.png",
+                      "image": "Charakter\\stehend\\Econaut rechts_stehend Farbe.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12943,27 +13023,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_2.png",
+                      "image": "Charakter\\Schießen\\1.Econaut rechts_stehend Farbe Kopie_Schießen 1. Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12979,27 +13059,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_3.png",
+                      "image": "Charakter\\Schießen\\2Econaut rechts_stehend Farbe Kopie_Schießen 2.Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13015,27 +13095,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_4.png",
+                      "image": "Charakter\\Schießen\\3.Econaut rechts_stehend Farbe Kopie_Schießen 3.Bilder.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13051,27 +13131,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_5.png",
+                      "image": "Charakter\\Schießen\\4.Econaut rechts_stehend Farbe Kopie_Schießen Kopie 4.Bilder.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13087,27 +13167,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_6.png",
+                      "image": "Charakter\\Schießen\\5Econaut rechts_stehend Farbe Kopie_Schießen Kopie5.Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13123,27 +13203,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_7.png",
+                      "image": "Charakter\\Schießen\\6.Econaut rechts_stehend Farbe Kopie_Schießen Kopie6.Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13159,27 +13239,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_8.png",
+                      "image": "Charakter\\Schießen\\7Econaut rechts_stehend Farbe Kopie_Schießen Kopie7.Bild.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13195,452 +13275,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_17.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_18.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_19.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Fire_20.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 25,
-                            "y": 20
-                          },
-                          {
-                            "x": 73.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 74,
-                            "y": 85
-                          },
-                          {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -13659,7 +13307,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "GreenHero_Pose1.png",
+                      "image": "Charakter\\EcoNaut von Vorne.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13675,20 +13323,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -13723,20 +13371,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 20
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 73.5,
-                            "y": 20.5
+                            "x": 481,
+                            "y": 1
                           },
                           {
-                            "x": 74,
-                            "y": 85
+                            "x": 481,
+                            "y": 683
                           },
                           {
-                            "x": 25,
-                            "y": 85
+                            "x": 2,
+                            "y": 687
                           }
                         ]
                       ]
@@ -13758,8 +13406,8 @@
           "behaviors": [
             {
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "Jumpthru",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             }
@@ -16029,6 +15677,12 @@
                 "GreenHero",
                 "PlatformerObject"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -16172,6 +15826,33 @@
                     "",
                     "GlobalVariable(Einstellungen.Ton)",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnLadder"
+                  },
+                  "parameters": [
+                    "GreenHero",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "GreenHero",
+                    "Animation",
+                    "=",
+                    "4"
                   ]
                 }
               ]
