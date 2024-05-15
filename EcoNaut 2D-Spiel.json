@@ -8393,8 +8393,8 @@
           "behaviors": [
             {
               "name": "Platform",
+              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
-              "platformType": "Jumpthru",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             },
@@ -15379,8 +15379,8 @@
           "behaviors": [
             {
               "name": "Platform",
+              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
-              "platformType": "Jumpthru",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             },
@@ -15464,8 +15464,8 @@
           "behaviors": [
             {
               "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
               "platformType": "Jumpthru",
+              "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             }
@@ -16903,8 +16903,8 @@
           "behaviors": [
             {
               "name": "Platform",
+              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
-              "platformType": "Jumpthru",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             },
