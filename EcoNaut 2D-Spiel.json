@@ -4775,9 +4775,9 @@
               "PercentDamageReduction": 0
             },
             {
-              "gravity": 950,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "gravity": 950,
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -11011,6 +11011,17 @@
               "name": "Plattform4"
             }
           ]
+        },
+        {
+          "name": "Durchsichtig_Plattform",
+          "objects": [
+            {
+              "name": "Plattform3"
+            },
+            {
+              "name": "Plattform_durchlässig"
+            }
+          ]
         }
       ],
       "variables": [
@@ -15670,7 +15681,17 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Brightness",
+              "name": "Effect",
+              "doubleParameters": {
+                "brightness": 4.8
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [
             {
               "name": "Platform",
@@ -17839,6 +17860,17 @@
                 "Text",
                 "=",
                 "\"Score: \" + GlobalVariableString(Score)"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Durchsichtig_Plattform",
+                "Opacity",
+                "=",
+                "150"
               ]
             }
           ]
